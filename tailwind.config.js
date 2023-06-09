@@ -32,6 +32,8 @@ module.exports = {
       backgroundImage: {
         logo: "url('/public/img/logo.png')",
         video: "url('https://www.youtube.com/watch?v=-5ajVJ1Yxlg')",
+        settings: "url('/public/img/settings.png')",
+        "about-fone": "url('/public/img/about-fone.jpg')",
       },
       backdropOpacity: {
         100: ".100",

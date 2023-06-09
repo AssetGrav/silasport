@@ -1,18 +1,60 @@
-import React from "react";
+import React, { useState } from "react";
+import { sportType } from "../../api/menu/total-menu/sportType.api";
+import { football } from "../../api/menu/total-menu/football.api";
+import { basketball } from "../../api/menu/total-menu/basketball.api";
+import { hockey } from "../../api/menu/total-menu/hockey.api";
+import { kokpar } from "../../api/menu/total-menu/kokpar.api";
+import { clothes } from "../../api/menu/total-menu/clothes.api";
+import { drawing } from "../../api/menu/total-menu/drawing.api";
+import { services } from "../../api/menu/total-menu/services.api";
+import DropItem from "../common/DropItem";
+import { volleyball } from "../../api/menu/total-menu/volleyball.api";
 
 const Menu = () => {
+  const [isShown, setIsShown] = useState();
+  const arr = [
+    sportType,
+    football,
+    basketball,
+    volleyball,
+    hockey,
+    kokpar,
+    clothes,
+    drawing,
+    services,
+  ];
   return (
-    <div className="mx-44 text-red mt-5">
-      <ul className="flex flex-row">
-        <li className="px-6 border-r-2 border-blue">ВИДЫ СПОРТА</li>
-        <li className="px-6 border-r-2 border-blue">БАСКЕТБОЛ</li>
-        <li className="px-6 border-r-2 border-blue">ВОЛЕЙБОЛ</li>
-        <li className="px-6 border-r-2 border-blue">ХОККЕЙ</li>
-        <li className="px-6 border-r-2 border-blue">КОКПАР</li>
-        <li className="px-6 border-r-2 border-blue">ОДЕЖДА</li>
-        <li className="px-6 border-r-2 border-blue">НАНЕСЕНИЕ</li>
-        <li className="px-6">УСЛУГИ</li>
-      </ul>
+    <div
+      className="relative text-left  mt-5 "
+      onMouseLeave={() => setIsShown("")}
+    >
+      <div className="flex flex-row justify-center">
+        {arr.map((obj) => (
+          <div key={obj.name} className="mx-5">
+            <div onMouseEnter={() => setIsShown(obj.name)} className="text-red">
+              {obj.name}
+            </div>
+            <div onMouseLeave={() => setIsShown("")}>
+              <div
+                className="absolute w-full left-0 z-10 divide-y divide-gray rounded-md bg-white shadow-lg ring-black ring-opacity-5 focus:outline-none text-black"
+                role="menu"
+                // aria-orientation="vertical"
+                aria-labelledby="menu-button"
+              >
+                {isShown === obj.name && (
+                  <ul className="flex flex-row justify-center">
+                    {obj.list.map((elem) => (
+                      <li key={elem._id}>
+                        <DropItem name={elem.name} list={elem} />
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
