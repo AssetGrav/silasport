@@ -1,11 +1,11 @@
 import React from "react";
-import Video from "./Video";
 import { videoFile } from "../../api/video.api";
 import Button from "../common/Button";
+import Video from "../common/Video";
 
 const AboutUsVideo = () => {
   return (
-    <div className="px-5">
+    <div className="px-10">
       <h1 className="flex justify-center text-red text-2xl font-bold mt-10 mb-2">
         ВИДЕО О НАС
       </h1>

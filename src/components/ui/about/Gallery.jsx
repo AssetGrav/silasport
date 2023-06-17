@@ -1,31 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import strelka from "./../../../assets/img/strelka.png";
-import PhotoGallery from "./../../common/PhotoGallery";
-import photo1 from "../../../assets/gallery/1.jpg";
-import photo2 from "../../../assets/gallery/2.jpg";
-import photo3 from "../../../assets/gallery/3.jpg";
-import photo4 from "../../../assets/gallery/4.jpeg";
-import photo5 from "../../../assets/gallery/5.jpg";
-import photo6 from "../../../assets/gallery/6.jpg";
-import photo7 from "../../../assets/gallery/7.jpg";
-import photo8 from "../../../assets/gallery/8.jpg";
-import photo9 from "../../../assets/gallery/9.jpg";
-import photo10 from "../../../assets/gallery/10.jpg";
 import LinkArrow from "../LinkArrow";
+import PhotoGallery from "../../common/PhotoGallery";
 
 const Gallery = () => {
   const arr = [
-    { id: "1", host: photo1 },
-    { id: "2", host: photo2 },
-    { id: "3", host: photo3 },
-    { id: "4", host: photo4 },
-    { id: "5", host: photo5 },
-    { id: "6", host: photo6 },
-    { id: "7", host: photo7 },
-    { id: "8", host: photo8 },
-    { id: "9", host: photo9 },
-    { id: "10", host: photo10 },
+    { id: "1", host: "/img/gallery/1.jpg" },
+    { id: "2", host: "/img/gallery/2.jpg" },
+    { id: "3", host: "/img/gallery/3.jpg" },
+    { id: "4", host: "/img/gallery/4.jpeg" },
+    { id: "5", host: "/img/gallery/5.jpg" },
+    { id: "6", host: "/img/gallery/6.jpg" },
+    { id: "7", host: "/img/gallery/7.jpg" },
+    { id: "8", host: "/img/gallery/8.jpg" },
+    { id: "9", host: "/img/gallery/9.jpg" },
+    { id: "10", host: "/img/gallery/10.jpg" },
+    { id: "11", host: "/img/gallery/11.jpeg" },
+    { id: "12", host: "/img/gallery/12.jpg" },
   ];
   return (
     <div className="container pt-36">

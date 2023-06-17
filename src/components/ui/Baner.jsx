@@ -1,12 +1,12 @@
 import React from "react";
-import Video from "./Video";
 import Button from "../common/Button";
+import Video from "../common/Video";
 
 const Baner = () => {
   return (
-    <div className="flex my-5 bg-gray-light px-10">
+    <div className="flex my-5 bg-gray-light px-10 ">
       <div className="ml-10">
-        <h1 className="flex text-5xl font-bold my-5 pt-5 ">
+        <h1 className="flex text-5xl font-bold my-5">
           <p className="text-red pr-3">SilaSport</p>- пошив спортивной одежды на
           заказ.
         </h1>
@@ -16,7 +16,9 @@ const Baner = () => {
           <li>Все технологии нанесения</li>
           <li>Экипируем спортивные команды</li>
         </ul>
-        <Button text="перейти в каталог" host="products" />
+        <div className="py-10">
+          <Button text="перейти в каталог" host="products" className="py-10" />
+        </div>
       </div>
       <div className="flex ml-16">
         <Video videoId="-5ajVJ1Yxlg" />

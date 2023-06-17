@@ -6,7 +6,7 @@ import Item from "./footer/Item";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-dark-blue text-white">
+    <footer className="w-full bg-dark-blue text-white mt-10">
       <div className="container mx-auto">
         <div className="flex flex-row">
           <div className="w-3/4 px-10">
