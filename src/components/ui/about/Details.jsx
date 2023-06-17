@@ -1,6 +1,5 @@
 import React from "react";
 import TableMenu from "./../../common/TableMenu";
-import doc from "../../../assets/img/doc.png";
 import { about } from "../../../api/menu/header/about.api";
 import LinkArrow from "../LinkArrow";
 
@@ -16,7 +15,11 @@ const Details = () => {
             <div className="text-dark-blue hover:text-blue">
               <a href="/img/details.docx" download>
                 <div className="flex flex-row">
-                  <img src={doc} className="w-10 h-10" alt="" />
+                  <img
+                    src="/img/assets/img/doc.png"
+                    className="w-10 h-10"
+                    alt=""
+                  />
 
                   <button className="px-3">
                     Реквизиты ТОО "SilaSport" (42,5 Kb)

@@ -4,18 +4,18 @@ import PhotoGallery from "../../common/PhotoGallery";
 
 const Gallery = () => {
   const arr = [
-    { id: "1", host: "/img/gallery/1.jpg" },
-    { id: "2", host: "/img/gallery/2.jpg" },
-    { id: "3", host: "/img/gallery/3.jpg" },
-    { id: "4", host: "/img/gallery/4.jpeg" },
-    { id: "5", host: "/img/gallery/5.jpg" },
-    { id: "6", host: "/img/gallery/6.jpg" },
-    { id: "7", host: "/img/gallery/7.jpg" },
-    { id: "8", host: "/img/gallery/8.jpg" },
-    { id: "9", host: "/img/gallery/9.jpg" },
-    { id: "10", host: "/img/gallery/10.jpg" },
-    { id: "11", host: "/img/gallery/11.jpeg" },
-    { id: "12", host: "/img/gallery/12.jpg" },
+    { _id: "1", host: "/img/gallery/1.jpg" },
+    { _id: "2", host: "/img/gallery/2.jpg" },
+    { _id: "3", host: "/img/gallery/3.jpg" },
+    { _id: "4", host: "/img/gallery/4.jpeg" },
+    { _id: "5", host: "/img/gallery/5.jpg" },
+    { _id: "6", host: "/img/gallery/6.jpg" },
+    { _id: "7", host: "/img/gallery/7.jpg" },
+    { _id: "8", host: "/img/gallery/8.jpg" },
+    { _id: "9", host: "/img/gallery/9.jpg" },
+    { _id: "10", host: "/img/gallery/10.jpg" },
+    { _id: "11", host: "/img/gallery/11.jpeg" },
+    { _id: "12", host: "/img/gallery/12.jpg" },
   ];
   return (
     <div className="container pt-36">
