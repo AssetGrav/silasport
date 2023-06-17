@@ -1,6 +1,6 @@
 import React from "react";
 import Video from "./Video";
-import Button from "./Button";
+import Button from "../common/Button";
 
 const Baner = () => {
   return (
@@ -16,7 +16,7 @@ const Baner = () => {
           <li>Все технологии нанесения</li>
           <li>Экипируем спортивные команды</li>
         </ul>
-        <Button text="перейти в каталог" />
+        <Button text="перейти в каталог" host="products" />
       </div>
       <div className="flex ml-16">
         <Video videoId="-5ajVJ1Yxlg" />

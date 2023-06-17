@@ -1,32 +1,24 @@
 export const ABOUT = [
-  { name: "О компании", link: "#" },
-  { name: "Новости", link: "#" },
-  { name: "Наши награды", link: "#" },
-  { name: "Сертификаты", link: "#" },
-  { name: "Галерея работ", link: "#" },
+  { name: "О компании", link: "about" },
+  { name: "Галерея работ", link: "gallery" },
   { name: "Фото изделий", link: "#" },
   { name: "Наше производство", link: "#" },
-  { name: "Вакансии", link: "#" },
-  { name: "Статьи", link: "#" },
-  { name: "Реквизиты", link: "#" },
+  { name: "Вакансии", link: "vacancies" },
+  { name: "Реквизиты", link: "details" },
 ];
 export const RESOURCES = [
-  { name: "Как сделать заказ", link: "#" },
-  { name: "Оплата", link: "#" },
-  { name: "Доставка", link: "#" },
-  { name: "Сроки изготовления", link: "#" },
+  { name: "Как сделать заказ", link: "order" },
+  { name: "Доставка", link: "delivery" },
 ];
 export const COMPANY = [
-  { name: "Разработка дизайна", link: "#" },
-  { name: "Требования к макету", link: "#" },
-  { name: "Технологии печати", link: "#" },
-  { name: "Уход за изделиями", link: "#" },
-  { name: "Виды тканей", link: "#" },
+  { name: "Требования к макету", link: "model" },
+  { name: "Технологии печати", link: "printing" },
+  { name: "Уход за изделиями", link: "care" },
+  { name: "Виды тканей", link: "fabrics" },
   { name: "Карта цветов", link: "#" },
   { name: "Таблица размеров", link: "#" },
-  { name: "Маркировка и упаковка изделий", link: "#" },
-  { name: "Система скидок и наценок", link: "#" },
-  { name: "Пользовательское соглашение", link: "#" },
+  { name: "Маркировка и упаковка изделий", link: "marking" },
+  { name: "Система скидок и наценок", link: "marking" },
 ];
 export const SUPPORT = [
   {

@@ -1,0 +1,35 @@
+export const motoKits = [
+  {
+    _id: 1,
+    typeId: "1",
+    name: "Мотомайка",
+    image: ["/img/moto-sport/cofta.png"],
+    price: 15000,
+    article: "Б-10",
+    category: "мужская",
+  },
+  {
+    _id: 2,
+    type: "1",
+    name: "Мотомайка",
+    image: [
+      "/img/moto-sport/switer-1.png",
+      "/img/moto-sport/switer-2.png",
+      "/img/moto-sport/switer-3.png",
+      "/img/moto-sport/switer-4.png",
+      "/img/moto-sport/switer-5.png",
+    ],
+    price: 15000,
+    article: "ИД-10",
+    category: "мужская",
+  },
+  {
+    _id: 3,
+    type: "1",
+    name: "Мото-шорты",
+    image: ["/img/moto-sport/opf-8.png"],
+    price: 15000,
+    article: "ИД-11",
+    category: "мужская",
+  },
+];

@@ -1,7 +1,7 @@
 import React from "react";
 import Video from "./Video";
 import { videoFile } from "../../api/video.api";
-import Button from "./Button";
+import Button from "../common/Button";
 
 const AboutUsVideo = () => {
   return (

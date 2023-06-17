@@ -11,7 +11,26 @@ const Contacts = () => {
         <TableMenu list={info.list} />
         <div className="flex flex-col">
           <h1 className="font-medium text-3xl pb-5">Контакты</h1>
-          <p>Мы изготавливаем спортивную одежду на заказ.</p> <br />
+          <div>Минимальный заказ швейной продукции - 1 шт.</div>
+          <div>Минимальный заказ трикотажной продукции - 10 шт.</div>
+          <p className="text-2xl font-bold py-5">Астана</p>
+          <p>Адрес: Атбасарская 36</p>
+          <p>Телефоны :+7 (771) 417-18-88</p>
+          <p>Режим работы: С 8:00 до 18:00 по рабочим дням.</p>
+          <div>
+            Суббота до 13:00 Оформить заявку:{" "}
+            <a href="https://silasport.kz">SilaSport.kz</a>
+          </div>
+          <p className="text-2xl font-bold py-5">Наши менеджеры</p>
+          <p>Шевченко Анастасия</p>
+          <p>
+            контактный номер:{" "}
+            <a href="#" className="text-dark-blue hover:text-blue">
+              +7 705 666-66-66
+            </a>
+          </p>
+          <p className="text-2xl font-bold py-5">Руководитель компании</p>
+          <p className="font-bold">Лупов Анатолий Евгеньевич</p>
         </div>
       </div>
     </div>

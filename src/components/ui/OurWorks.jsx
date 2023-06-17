@@ -1,8 +1,8 @@
 import React from "react";
 import { useKits } from "../hook/useKits";
 import "react-multi-carousel/lib/styles.css";
-import Button from "./Button";
 import CarouselComponent from "../common/CarouselComponent";
+import Button from "../common/Button";
 
 const OurWorks = () => {
   const { works } = useKits();

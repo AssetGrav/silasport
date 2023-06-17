@@ -48,7 +48,7 @@ const works = [
   {
     _id: 4,
     name: "Разработка игровой формы для команды",
-    image: "../../public/img/explorer.jpg",
+    image: "/img/explorer.jpg",
   },
 ];
 

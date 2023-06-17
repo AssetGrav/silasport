@@ -2,18 +2,16 @@ import React from "react";
 import DropItemList from "./DropItemList";
 import { Link } from "react-router-dom";
 
-const DropItem = ({ name, list, host }) => {
+const DropItem = ({ name, list, menu, onClick }) => {
   return (
-    <div className="py-1 bg-white text-black" role="none">
+    <div className="py-1 bg-white text-black" role="none" onMouseDown={onClick}>
       {/* <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" --> */}
       {!list.type ? (
-        <Link to={`/${host}`}>
-          <p
-            href="#"
-            className="text-dark-blue w-full flex px-4 py-2 hover:bg-gray-light"
-            role="menuitem"
-            id="menu-item-0"
-          >
+        <Link
+          to={`${menu === true ? "products" : ""}/${list.host}`}
+          state={{ some: `${list.host}` }}
+        >
+          <p className="text-dark-blue w-full flex px-4 py-2 hover:bg-gray-light">
             {name}
           </p>
         </Link>
@@ -28,7 +26,7 @@ const DropItem = ({ name, list, host }) => {
             {list.type}
           </div>
           <div className="grid grid-cols-1 ">
-            <DropItemList list={list.arr} />
+            <DropItemList list={list.arr} in="man" menu={menu} />
           </div>
         </div>
       )}

@@ -24,22 +24,20 @@ const CarouselComponent = ({ works, number, num }) => {
     },
   };
   return (
-    <div className="px-5">
-      <Carousel
-        responsive={responsive}
-        removeArrowOnDeviceType={["tablet", "mobile"]}
-        itemClass="carousel-item-padding-40-px"
-        swipeable={false}
-        draggable={false}
-        infinite={true}
-      >
-        {works.map((elem) => (
-          <div key={elem._id}>
-            <WorkBlock work={elem} number={number} />
-          </div>
-        ))}
-      </Carousel>
-    </div>
+    <Carousel
+      responsive={responsive}
+      removeArrowOnDeviceType={["tablet", "mobile"]}
+      itemClass="carousel-item-padding-40-px"
+      swipeable={false}
+      draggable={false}
+      infinite={true}
+    >
+      {works.map((elem) => (
+        <div key={elem._id}>
+          <WorkBlock work={elem} number={number} />
+        </div>
+      ))}
+    </Carousel>
   );
 };
 

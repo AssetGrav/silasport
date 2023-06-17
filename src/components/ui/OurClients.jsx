@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
-import bars from "../../assets/img/bars.png";
+import { ourClients } from "../../api/clients.api";
 
 const OurClients = () => {
   const responsive = {
@@ -28,21 +28,14 @@ const OurClients = () => {
         НАШИ КЛИЕНТЫ
       </h1>
       <Carousel responsive={responsive} className="my-10">
-        <div className="flex justify-center mx-5 overflow-hidden border-2mx-1 text-gray hover:text-blue">
-          <img className="w-36 h-36" src={bars} alt="" />
-        </div>
-        <div className="flex justify-center mx-5 overflow-hidden border-2mx-1 text-gray hover:text-blue">
-          <img className="w-36 h-36" src={bars} alt="" />
-        </div>
-        <div className="flex justify-center mx-5 overflow-hidden border-2mx-1 text-gray hover:text-blue">
-          <img className="w-36 h-36" src={bars} alt="" />
-        </div>
-        <div className="flex justify-center mx-5 overflow-hidden border-2mx-1 text-gray hover:text-blue">
-          <img className="w-36 h-36" src={bars} alt="" />
-        </div>
-        <div className="flex justify-center mx-5 overflow-hidden border-2mx-1 text-gray hover:text-blue">
-          <img className="w-36 h-36" src={bars} alt="" />
-        </div>
+        {ourClients.map((elem) => (
+          <div
+            key={elem._id}
+            className="flex justify-center mx-5 overflow-hidden border-2mx-1 text-gray hover:text-blue"
+          >
+            <img className="w-36 h-36" src="/img/logo.png" alt="" />
+          </div>
+        ))}
       </Carousel>
     </div>
   );
