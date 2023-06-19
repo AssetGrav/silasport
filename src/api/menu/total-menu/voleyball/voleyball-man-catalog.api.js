@@ -1,0 +1,58 @@
+import { v4 as uuidv4 } from "uuid";
+
+export const voleyballManKits = [
+  {
+    _id: uuidv4("sila-"),
+    type: "v-1",
+    name: "Волейбольная форма",
+    image: ["/img/volleyball/complect-1.png"],
+    price: 15000,
+    article: "Б-10",
+    category: "мужская",
+  },
+  {
+    _id: uuidv4("sila-"),
+    type: "v-1",
+    name: "Волейбольная форма",
+    image: ["/img/volleyball/complect-10.png"],
+    price: 15000,
+    article: "ИД-10",
+    category: "женская",
+  },
+  {
+    _id: uuidv4("sila-"),
+    type: "v-1",
+    name: "Волейбольная форма",
+    image: ["/img/volleyball/complect-20.png"],
+    price: 15000,
+    article: "ИД-11",
+    category: "мужская",
+  },
+  {
+    _id: uuidv4("sila-"),
+    type: "v-1",
+    name: "Волейбольная форма",
+    image: ["/img/volleyball/complect-30.png"],
+    price: 15000,
+    article: "ИД-11",
+    category: "мужская",
+  },
+  {
+    _id: uuidv4("sila-"),
+    type: "v-1",
+    name: "Волейбольная майка",
+    image: ["/img/volleyball/tshirt-1.png"],
+    price: 15000,
+    article: "ИД-11",
+    category: "мужская",
+  },
+  {
+    _id: uuidv4("sila-"),
+    type: "v-1",
+    name: "Волейбольная майка",
+    image: ["/img/volleyball/tshirt-10.png"],
+    price: 15000,
+    article: "ИД-11",
+    category: "мужская",
+  },
+];

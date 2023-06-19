@@ -1,0 +1,58 @@
+import { v4 as uuidv4 } from "uuid";
+
+export const clothesTshirtPeKits = [
+  {
+    _id: uuidv4("sila-"),
+    type: "c-9",
+    name: "Футболки п/э",
+    image: ["/img/clothes-tshirt/tshirt-1.png"],
+    price: 15000,
+    article: "Б-10",
+    category: "мужская",
+  },
+  {
+    _id: uuidv4("sila-"),
+    type: "c-9",
+    name: "Футболка с сублимационным нанесением",
+    image: ["/img/clothes-tshirt/tshirt-10.png"],
+    price: 15000,
+    article: "ИД-10",
+    category: "женская",
+  },
+  {
+    _id: uuidv4("sila-"),
+    type: "c-9",
+    name: "Футболка с нанесением",
+    image: ["/img/clothes-tshirt/tshirt-20.png"],
+    price: 15000,
+    article: "ИД-11",
+    category: "мужская",
+  },
+  {
+    _id: uuidv4("sila-"),
+    type: "c-9",
+    name: "Футболка с нанесением",
+    image: ["/img/clothes-tshirt/tshirt-30.png"],
+    price: 15000,
+    article: "ИД-11",
+    category: "мужская",
+  },
+  {
+    _id: uuidv4("sila-"),
+    type: "c-9",
+    name: "Футболка с нанесением",
+    image: ["/img/clothes-tshirt/tshirt-40.png"],
+    price: 15000,
+    article: "ИД-11",
+    category: "мужская",
+  },
+  {
+    _id: uuidv4("sila-"),
+    type: "c-9",
+    name: "Футболка с нанесением",
+    image: ["/img/clothes-tshirt/tshirt-50.png"],
+    price: 15000,
+    article: "ИД-11",
+    category: "мужская",
+  },
+];
