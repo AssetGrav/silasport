@@ -2,6 +2,7 @@ import React from "react";
 import LinkArrow from "../LinkArrow";
 import TableMenu from "../../common/TableMenu";
 import { info } from "../../../api/menu/header/info.api";
+import ContactUs from "../ContactUs";
 
 const Order = () => {
   return (
@@ -18,6 +19,13 @@ const Order = () => {
             согласования всех параметров. К ней относится заказная игровая
             форма, хоккейные майки, спортивные костюмы, куртки и т.д.
           </p>
+          <div className="w-full">
+            <div className="flex justify-center">
+              <div className="w-1/2">
+                <ContactUs />
+              </div>
+            </div>
+          </div>
           <p>
             Приобрести готовую или заказать пошив спортивной одежды Сила Спорт
             можно в нашем офисе в городе Астана.
@@ -30,13 +38,16 @@ const Order = () => {
           <p>
             Наконец, Вы можете выслать заявку в произвольной форме на
             электронную почту{" "}
-            <a href="#" className="text-dark-blue hover:text-blue">
+            <a
+              href="mailto:SilaSport76@mail.ru"
+              className="text-dark-blue hover:text-blue"
+            >
               SilaSport76@mail.ru
             </a>{" "}
             или позвонить по нашим телефонам в Астане:{" "}
-            <a href="#" className="text-dark-blue hover:text-blue">
+            <div className="text-dark-blue hover:text-blue">
               +7 (771) 417-18-88.
-            </a>
+            </div>
           </p>{" "}
           <br />
           <p>Не забудьте указать следующую информацию:</p>

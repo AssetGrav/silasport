@@ -1,7 +1,9 @@
+import { v4 as uuidv4 } from "uuid";
+
 export const voleyballWomenKits = [
   {
-    _id: 1,
-    typeId: "1",
+    _id: uuidv4("sila-"),
+    type: "v-2",
     name: "Волейбольная форма",
     image: ["/img/volleyball/complect-40.png"],
     price: 15000,
@@ -9,8 +11,8 @@ export const voleyballWomenKits = [
     category: "женская",
   },
   {
-    _id: 2,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "v-2",
     name: "Волейбольная форма",
     image: ["/img/volleyball/complect-50.png"],
     price: 15000,
@@ -18,8 +20,8 @@ export const voleyballWomenKits = [
     category: "женская",
   },
   {
-    _id: 3,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "v-2",
     name: "Волейбольная форма",
     image: ["/img/volleyball/complect-60.png"],
     price: 15000,

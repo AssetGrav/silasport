@@ -25,12 +25,13 @@ const Contacts = () => {
           <p>Шевченко Анастасия</p>
           <p>
             контактный номер:{" "}
-            <a href="#" className="text-dark-blue hover:text-blue">
-              +7 705 666-66-66
+            <a
+              href="mailto:SiLaSport76@mail.ru"
+              className="text-dark-blue hover:text-blue"
+            >
+              +7 (771) 417-18-88
             </a>
           </p>
-          <p className="text-2xl font-bold py-5">Руководитель компании</p>
-          <p className="font-bold">Лупов Анатолий Евгеньевич</p>
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@ const KokparType = () => {
     <ProductsComponent
       linkName="Кокпар"
       name="Одежда для кокпар"
-      fileName=""
+      fileName="kokpar-2.jpg"
       buttons={sportType.list}
       kits={kokparKits}
     />

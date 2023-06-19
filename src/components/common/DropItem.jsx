@@ -26,7 +26,7 @@ const DropItem = ({ name, list, menu, onClick }) => {
             {list.type}
           </div>
           <div className="grid grid-cols-1 ">
-            <DropItemList list={list.arr} in="man" menu={menu} />
+            <DropItemList list={list.arr} menu={menu} />
           </div>
         </div>
       )}

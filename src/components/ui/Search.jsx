@@ -9,7 +9,7 @@ const Search = () => {
       <input
         type="text"
         className="block w-full px-14 text-pink-700 bg-white focus:ring-pink-300 focus:outline-none focus:ring focus:ring-opacity-40 rounded-sm"
-        placeholder="Search..."
+        placeholder="Найти ..."
       />
       <button className="px-4" onClick={handleSearch}>
         <svg

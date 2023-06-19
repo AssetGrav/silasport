@@ -44,11 +44,14 @@ import {
 } from "./components/routing/routing";
 import ServicesComponent from "./components/common/ServicesComponent";
 import DrawingComponent from "./components/common/DrawingComponent";
+import VideoAboutUs from "./components/ui/VideoAboutUs";
+import ScrollToTop from "./components/common/ScrollToTop";
 
 function App() {
   return (
     <>
       <KitsProvider>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Main />} />
@@ -56,6 +59,7 @@ function App() {
             <Route path="vacancies" element={<Vacancies />} />
             <Route path="details" element={<Details />} />
             <Route path="gallery" element={<Gallery />} />
+            <Route path="video" element={<VideoAboutUs />} />
             <Route path="order" element={<Order />} />
             <Route path="marking" element={<MarkingAndParking />} />
             <Route path="printing" element={<Printing />} />

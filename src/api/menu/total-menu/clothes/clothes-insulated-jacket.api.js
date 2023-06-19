@@ -1,7 +1,9 @@
+import { v4 as uuidv4 } from "uuid";
+
 export const clothesInsulatedJacketKits = [
   {
-    _id: 1,
-    typeId: "1",
+    _id: uuidv4("sila-"),
+    type: "c-5",
     name: "Костюм утепленный",
     image: [
       "/img/jacket/jacket-1.png",
@@ -13,8 +15,8 @@ export const clothesInsulatedJacketKits = [
     category: "мужская",
   },
   {
-    _id: 2,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "c-5",
     name: "Костюм утепленный",
     image: [
       "/img/jacket/jacket-10.png",

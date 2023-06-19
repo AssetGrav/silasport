@@ -1,7 +1,6 @@
 import React from "react";
 
 const PhotoGallery = ({ list }) => {
-  console.log("111", list);
   return (
     <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
       <div className="-m-1 flex flex-wrap md:-m-2">
@@ -11,7 +10,7 @@ const PhotoGallery = ({ list }) => {
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src={elem.host}
+                src={elem.image}
               />
             </div>
           </div>

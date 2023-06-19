@@ -29,7 +29,7 @@ export const SUPPORT = [
 
 export const LOCATION = [
   {
-    name: "Адрес Fr;fqsr 26 bfghnf",
+    name: "Адрес: Атбасарская 36",
     link: "#",
   },
 ];

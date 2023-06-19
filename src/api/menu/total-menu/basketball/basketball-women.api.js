@@ -1,7 +1,9 @@
+import { v4 as uuidv4 } from "uuid";
+
 export const basketballWomenKits = [
   {
-    _id: 1,
-    typeId: "1",
+    _id: uuidv4("sila-"),
+    type: "b-2",
     name: "Баскетбольная форма",
     image: ["/img/basketball/complect-1.png"],
     price: 15000,
@@ -9,8 +11,8 @@ export const basketballWomenKits = [
     category: "женская",
   },
   {
-    _id: 2,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "b-2",
     name: "Баскетбольная майка",
     image: ["/img/basketball/tshirt-1.png"],
     price: 15000,
@@ -18,8 +20,8 @@ export const basketballWomenKits = [
     category: "женская",
   },
   {
-    _id: 3,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "b-2",
     name: "Баскетбольная майка",
     image: ["/img/basketball/tshirt-10.png"],
     price: 15000,

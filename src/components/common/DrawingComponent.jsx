@@ -5,8 +5,6 @@ import ButtonList from "./ButtonList";
 import ProductsList from "../ui/ProductsList";
 import Advantages from "../ui/Advantages";
 import Drawing from "../ui/Drawing";
-import PhoneForm from "../ui/PhoneForm";
-import OurWorks from "../ui/OurWorks";
 import DrawingWorks from "../ui/DrawingWorks";
 
 const DrawingComponent = ({ linkName, name, fileName, buttons, kits }) => {

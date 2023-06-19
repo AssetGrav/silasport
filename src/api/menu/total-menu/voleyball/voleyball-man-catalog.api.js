@@ -1,7 +1,9 @@
+import { v4 as uuidv4 } from "uuid";
+
 export const voleyballManKits = [
   {
-    _id: 1,
-    typeId: "1",
+    _id: uuidv4("sila-"),
+    type: "v-1",
     name: "Волейбольная форма",
     image: ["/img/volleyball/complect-1.png"],
     price: 15000,
@@ -9,8 +11,8 @@ export const voleyballManKits = [
     category: "мужская",
   },
   {
-    _id: 2,
-    type: "2",
+    _id: uuidv4("sila-"),
+    type: "v-1",
     name: "Волейбольная форма",
     image: ["/img/volleyball/complect-10.png"],
     price: 15000,
@@ -18,8 +20,8 @@ export const voleyballManKits = [
     category: "женская",
   },
   {
-    _id: 3,
-    type: "3",
+    _id: uuidv4("sila-"),
+    type: "v-1",
     name: "Волейбольная форма",
     image: ["/img/volleyball/complect-20.png"],
     price: 15000,
@@ -27,8 +29,8 @@ export const voleyballManKits = [
     category: "мужская",
   },
   {
-    _id: 4,
-    type: "3",
+    _id: uuidv4("sila-"),
+    type: "v-1",
     name: "Волейбольная форма",
     image: ["/img/volleyball/complect-30.png"],
     price: 15000,
@@ -36,8 +38,8 @@ export const voleyballManKits = [
     category: "мужская",
   },
   {
-    _id: 5,
-    type: "3",
+    _id: uuidv4("sila-"),
+    type: "v-1",
     name: "Волейбольная майка",
     image: ["/img/volleyball/tshirt-1.png"],
     price: 15000,
@@ -45,8 +47,8 @@ export const voleyballManKits = [
     category: "мужская",
   },
   {
-    _id: 6,
-    type: "3",
+    _id: uuidv4("sila-"),
+    type: "v-1",
     name: "Волейбольная майка",
     image: ["/img/volleyball/tshirt-10.png"],
     price: 15000,

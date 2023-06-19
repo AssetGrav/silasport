@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const DropItemList = ({ list, menu }) => {
-  console.log("111", list, menu);
   return (
     <>
       {list.map((elem) => (

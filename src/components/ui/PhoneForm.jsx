@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import ReactWhatsapp from "react-whatsapp";
 
 const PhoneForm = ({ type }) => {
   const [message, setMessage] = useState("");
@@ -7,7 +6,7 @@ const PhoneForm = ({ type }) => {
   const handleChange = ({ target }) => {
     setMessage(target.value);
   };
-  console.log("mes", message);
+
   return (
     <div className="mb-3">
       <form className="m-4 p-10 flex flex-col w-full items-stretch bg-gray-light">
@@ -22,9 +21,7 @@ const PhoneForm = ({ type }) => {
           value={message.phone}
           onChange={handleChange}
         />
-        <ReactWhatsapp number="+7-775-699-94-75" message="Hello World!!!">
-          send
-        </ReactWhatsapp>
+
         <button
           className="flex justify-center my-2 z-[2] items-center rounded-r bg-dark-blue px-auto py-2.5 text-xs font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-blue hover:shadow-lg focus:bg-primary-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg"
           type="button"

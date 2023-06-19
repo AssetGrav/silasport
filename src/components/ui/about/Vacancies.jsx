@@ -1,9 +1,9 @@
 import React from "react";
-import VacancyItem from "../../common/VacancyItem";
 import { vacancies } from "./../../../api/menu/header/vacancy/vacancies.api";
 import TableMenu from "./../../common/TableMenu";
 import { about } from "../../../api/menu/header/about.api";
 import LinkArrow from "../LinkArrow";
+import VacancyItem from "../VacancyItem";
 
 const Vacancies = () => {
   return (

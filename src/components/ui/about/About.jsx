@@ -1,5 +1,7 @@
 import React from "react";
 import LinkArrow from "../LinkArrow";
+import PhotoGallery from "../../common/PhotoGallery";
+import { aboutUs } from "../../../api/aboutUs.api.js";
 
 const About = () => {
   return (
@@ -46,6 +48,7 @@ const About = () => {
           alt=""
         />
       </div>
+      <PhotoGallery list={aboutUs} />
     </div>
   );
 };

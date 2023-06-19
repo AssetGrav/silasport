@@ -4,7 +4,6 @@ import "react-multi-carousel/lib/styles.css";
 import CarouselBlock from "./CarouselBlock";
 
 const CarouselItems = ({ kits, num, carousel, photo, handleClick }) => {
-  console.log("kits", kits);
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },

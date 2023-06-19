@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "../common/Button";
 import Video from "../common/Video";
+import { Link } from "react-router-dom";
 
 const Baner = () => {
   return (
@@ -17,7 +17,11 @@ const Baner = () => {
           <li>Экипируем спортивные команды</li>
         </ul>
         <div className="py-10">
-          <Button text="перейти в каталог" host="products" className="py-10" />
+          <Link to="/products">
+            <button className="max-h-10 text-justify bg-transparent hover:bg-blue text-dark-blue font-semibold hover:text-white py-2 px-2  border border-blue hover:border-red rounded">
+              Перейти в каталог
+            </button>
+          </Link>
         </div>
       </div>
       <div className="flex ml-16">

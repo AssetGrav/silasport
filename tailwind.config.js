@@ -34,6 +34,10 @@ module.exports = {
         video: "url('https://www.youtube.com/watch?v=-5ajVJ1Yxlg')",
         settings: "url('/public/img/settings.png')",
         "about-fone": "url('/public/img/about-fone.jpg')",
+        instagram: "url('/public/img/instagram.png')",
+        "instagram-white": "url('/public/img/instagram-icon-white.png')",
+        whatsapp: "url('/public/img/whatsapp.png')",
+        "whatsapp-white": "url('/public/img/whatsapp-icon-white.png')",
       },
       backdropOpacity: {
         100: ".100",

@@ -1,7 +1,9 @@
+import { v4 as uuidv4 } from "uuid";
+
 export const hockeyPlayTshirtKits = [
   {
-    _id: 1,
-    typeId: "1",
+    _id: uuidv4("sila-"),
+    type: "h-1",
     name: "Хоккейная майка на заказ",
     image: [
       "/img/hockey/tshirts/h-tshirt-1.png",
@@ -13,8 +15,8 @@ export const hockeyPlayTshirtKits = [
     category: "мужская",
   },
   {
-    _id: 2,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "h-1",
     name: "Хоккейная майка на заказ",
     image: [
       "/img/hockey/tshirts/h-tshirt-4.png",
@@ -26,8 +28,8 @@ export const hockeyPlayTshirtKits = [
     category: "мужская",
   },
   {
-    _id: 3,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "h-1",
     name: "Хоккейная майка на заказ",
     image: [
       "/img/hockey/tshirts/h-tshirt-9.png",
@@ -39,8 +41,8 @@ export const hockeyPlayTshirtKits = [
     category: "мужская",
   },
   {
-    _id: 4,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "h-1",
     name: "Хоккейная майка на заказ",
     image: [
       "/img/hockey/tshirts/h-tshirt-12.png",
@@ -52,8 +54,8 @@ export const hockeyPlayTshirtKits = [
     category: "мужская",
   },
   {
-    _id: 5,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "h-1",
     name: "Хоккейная майка на заказ",
     image: [
       "/img/hockey/tshirts/h-tshirt-15.png",
@@ -65,8 +67,8 @@ export const hockeyPlayTshirtKits = [
     category: "мужская",
   },
   {
-    _id: 6,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "h-1",
     name: "Хоккейная майка на заказ",
     image: [
       "/img/hockey/tshirts/h-tshirt-21.png",
@@ -78,8 +80,8 @@ export const hockeyPlayTshirtKits = [
     category: "мужская",
   },
   {
-    _id: 7,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "h-1",
     name: "Хоккейная майка на заказ",
     image: [
       "/img/hockey/tshirts/h-tshirt-27.png",
@@ -91,8 +93,8 @@ export const hockeyPlayTshirtKits = [
     category: "мужская",
   },
   {
-    _id: 8,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "h-1",
     name: "Хоккейная майка на заказ",
     image: [
       "/img/hockey/tshirts/h-tshirt-40.png",
@@ -104,8 +106,8 @@ export const hockeyPlayTshirtKits = [
     category: "мужская",
   },
   {
-    _id: 9,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "h-1",
     name: "Хоккейная майка на заказ",
     image: [
       "/img/hockey/tshirts/h-tshirt-45.png",
@@ -117,8 +119,8 @@ export const hockeyPlayTshirtKits = [
     category: "мужская",
   },
   {
-    _id: 10,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "h-1",
     name: "Хоккейная майка на заказ",
     image: [
       "/img/hockey/tshirts/h-tshirt-48.png",
@@ -130,8 +132,8 @@ export const hockeyPlayTshirtKits = [
     category: "мужская",
   },
   {
-    _id: 11,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "h-1",
     name: "Хоккейная майка на заказ",
     image: [
       "/img/hockey/tshirts/h-tshirt-51.png",
@@ -142,8 +144,8 @@ export const hockeyPlayTshirtKits = [
     category: "мужская",
   },
   {
-    _id: 12,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "h-1",
     name: "Хоккейная майка на заказ",
     image: [
       "/img/hockey/tshirts/h-tshirt-53.png",

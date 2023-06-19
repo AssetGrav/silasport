@@ -28,19 +28,19 @@ const ProductBaner = ({ fileName }) => {
           <div style={triangleStyles} className="-translate-x-24"></div>
           <ul className="flex flex-col w-full h-full justify-center text-xl py-16 -translate-x-24 ">
             <li className="flex flex-row ">
-              <img src="/img/icons/suit.svg" className="w-20" />
+              <img src="/img/icons/suit.svg" className="w-20" alt="#" />
               <span className="p-5">
                 Экипируем спортивные команды любого уровня
               </span>
             </li>
             <li className="flex flex-row">
-              <img src="/img/icons/design.svg" className="w-20" />
+              <img src="/img/icons/design.svg" className="w-20" alt="#" />
               <span className="p-5">
                 Профессиональный клубный дизайн. Разработка и изготовление
               </span>
             </li>
             <li className="flex flex-row">
-              <img src="/img/icons/materials.svg" className="w-20" />
+              <img src="/img/icons/materials.svg" className="w-20" alt="#" />
               <span className="p-5">Современные функциональные материалы</span>
             </li>
           </ul>

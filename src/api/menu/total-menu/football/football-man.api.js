@@ -1,7 +1,9 @@
+import { v4 as uuidv4 } from "uuid";
+
 export const footballManKits = [
   {
-    _id: 1,
-    typeId: "1",
+    _id: uuidv4("sila-"),
+    type: "f-1",
     name: "Футбольная форма",
     image: ["/img/football/complect-1.png"],
     price: 15000,
@@ -9,8 +11,8 @@ export const footballManKits = [
     category: "мужская",
   },
   {
-    _id: 2,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "f-1",
     name: "Футбольная форма",
     image: ["/img/football/complect-210.png", "/img/football/complect-211.png"],
     price: 15000,
@@ -18,8 +20,8 @@ export const footballManKits = [
     category: "мужская",
   },
   {
-    _id: 3,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "f-1",
     name: "Футбольная форма",
     image: ["/img/football/complect-10.png"],
     price: 15000,
@@ -27,8 +29,8 @@ export const footballManKits = [
     category: "мужская",
   },
   {
-    _id: 4,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "f-1",
     name: "Футбольная форма",
     image: ["/img/football/complect-20.png"],
     price: 15000,
@@ -36,8 +38,8 @@ export const footballManKits = [
     category: "мужская",
   },
   {
-    _id: 5,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "f-1",
     name: "Футбольная форма",
     image: ["/img/football/complect-30.png"],
     price: 15000,
@@ -45,8 +47,8 @@ export const footballManKits = [
     category: "мужская",
   },
   {
-    _id: 6,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "f-1",
     name: "Футбольная форма",
     image: ["/img/football/complect-40.png"],
     price: 15000,
@@ -54,8 +56,8 @@ export const footballManKits = [
     category: "мужская",
   },
   {
-    _id: 7,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "f-1",
     name: "Футбольная форма",
     image: ["/img/football/complect-50.png"],
     price: 15000,
@@ -63,8 +65,8 @@ export const footballManKits = [
     category: "мужская",
   },
   {
-    _id: 8,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "f-1",
     name: "Футбольная форма",
     image: ["/img/football/complect-60.png"],
     price: 15000,
@@ -72,8 +74,8 @@ export const footballManKits = [
     category: "мужская",
   },
   {
-    _id: 9,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "f-1",
     name: "Футбольная форма",
     image: ["/img/football/complect-70.png"],
     price: 15000,
@@ -81,8 +83,8 @@ export const footballManKits = [
     category: "мужская",
   },
   {
-    _id: 10,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "f-1",
     name: "Футбольная форма",
     image: ["/img/football/complect-80.png"],
     price: 15000,
@@ -90,8 +92,8 @@ export const footballManKits = [
     category: "мужская",
   },
   {
-    _id: 11,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "f-1",
     name: "Футбольная форма",
     image: ["/img/football/complect-90.png"],
     price: 15000,
@@ -99,8 +101,8 @@ export const footballManKits = [
     category: "мужская",
   },
   {
-    _id: 12,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "f-1",
     name: "Футболка",
     image: ["/img/football/tshirt-1.png", "/img/football/tshirt-2.png"],
     price: 15000,
@@ -108,8 +110,8 @@ export const footballManKits = [
     category: "мужская",
   },
   {
-    _id: 13,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "f-1",
     name: "Футболка",
     image: ["/img/football/short-1.png"],
     price: 15000,

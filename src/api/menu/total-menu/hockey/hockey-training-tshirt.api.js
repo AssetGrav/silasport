@@ -1,7 +1,9 @@
+import { v4 as uuidv4 } from "uuid";
+
 export const hockeyTrainingTshirtKits = [
   {
-    _id: 1,
-    typeId: "1",
+    _id: uuidv4("sila-"),
+    type: "h-2",
     name: "Майка хоккейная тренировочная из готовой ткани",
     image: [
       "/img/hockey/tshirts/h-tshirt-3.png",
@@ -13,8 +15,8 @@ export const hockeyTrainingTshirtKits = [
     category: "мужская",
   },
   {
-    _id: 2,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "h-2",
     name: "Майка хоккейная тренировочная из готовой ткани",
     image: [
       "/img/hockey/tshirts/h-tshirt-8.png",
@@ -26,8 +28,8 @@ export const hockeyTrainingTshirtKits = [
     category: "мужская",
   },
   {
-    _id: 3,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "h-2",
     name: "Майка хоккейная тренировочная из готовой ткани",
     image: [
       "/img/hockey/tshirts/h-tshirt-13.png",
@@ -39,8 +41,8 @@ export const hockeyTrainingTshirtKits = [
     category: "мужская",
   },
   {
-    _id: 4,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "h-2",
     name: "Майка хоккейная тренировочная из готовой ткани",
     image: [
       "/img/hockey/tshirts/h-tshirt-21.png",

@@ -1,7 +1,9 @@
+import { v4 as uuidv4 } from "uuid";
+
 export const athleticKits = [
   {
-    _id: 1,
-    typeId: "1",
+    _id: uuidv4("sila-"),
+    type: "s-6",
     name: "Форма легкоатлетическая мужская",
     image: [
       "/img/tshirt/tshirt-11.png",
@@ -13,8 +15,8 @@ export const athleticKits = [
     category: "мужская",
   },
   {
-    _id: 2,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "s-6",
     name: "Майка легкоатлетическая женская",
     image: [
       "/img/tshirt/tshirt-21.png",
@@ -26,8 +28,8 @@ export const athleticKits = [
     category: "женская",
   },
   {
-    _id: 3,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "s-6",
     name: "Майка легкоатлетическая мужская",
     image: ["/img/tshirt/tshirt-31.png", "/img/tshirt/tshirt-32.png"],
     price: 15000,
@@ -35,8 +37,8 @@ export const athleticKits = [
     category: "мужская",
   },
   {
-    _id: 4,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "s-6",
     name: "Майка легкоатлетическая мужская",
     image: ["/img/tshirt/tshirt-41.png", "/img/tshirt/tshirt-51.png"],
     price: 15000,
@@ -44,8 +46,8 @@ export const athleticKits = [
     category: "мужская",
   },
   {
-    _id: 5,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "s-6",
     name: "Майка легкоатлетическая мужская",
     image: ["/img/tshirt/tshirt-61.png"],
     price: 15000,

@@ -4,11 +4,10 @@ import { useLocation } from "react-router-dom";
 import CarouselItems from "../common/CarouselItems";
 import AboutProduct from "./AboutProduct";
 import Advantages from "./Advantages";
-import PhoneForm from "./PhoneForm";
+import ContactUs from "./ContactUs";
 
 const ProductItem = () => {
   const { state } = useLocation();
-  console.log("state", state);
 
   const products = state.some.image.map((elem, index) => {
     return { _id: index, image: elem };
@@ -55,7 +54,7 @@ const ProductItem = () => {
         </div>
         <div className="flex justify-center">
           <div className="w-1/3 ">
-            <PhoneForm />
+            <ContactUs />
           </div>
         </div>
         <AboutProduct product={state.some} />

@@ -13,7 +13,7 @@ const Details = () => {
           <div className="flex flex-col">
             <h1 className="font-medium text-3xl py-5"> Реквизиты</h1>
             <div className="text-dark-blue hover:text-blue">
-              <a href="/img/details.docx" download>
+              <a href="/img/details.doc" download>
                 <div className="flex flex-row">
                   <img
                     src="/img/assets/img/doc.png"

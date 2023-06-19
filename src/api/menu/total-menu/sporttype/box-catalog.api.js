@@ -1,7 +1,9 @@
+import { v4 as uuidv4 } from "uuid";
+
 export const boxKits = [
   {
-    _id: 1,
-    typeId: "1",
+    _id: uuidv4("sila-"),
+    type: "s-5",
     name: "Боксерская форма",
     image: ["/img/mma/complect-box-1.png"],
     price: 15000,
@@ -9,8 +11,8 @@ export const boxKits = [
     category: "мужская",
   },
   {
-    _id: 2,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "s-5",
     name: "Боксерская форма",
     image: ["/img/mma/complect-box-2.png"],
     price: 15000,

@@ -1,7 +1,9 @@
+import { v4 as uuidv4 } from "uuid";
+
 export const hockeyGamashKits = [
   {
-    _id: 1,
-    typeId: "1",
+    _id: uuidv4("sila-"),
+    type: "h-3",
     name: "Гамаши сублимационные трикотажные простые не разрезные",
     image: ["https://www.fan.ru/f/_katalog/big/gamashipered.jpg"],
     price: 15000,
@@ -9,8 +11,8 @@ export const hockeyGamashKits = [
     category: "мужская",
   },
   {
-    _id: 2,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "h-3",
     name: "Гамаши сублимационные трикотажные разрезные анатомические",
     image: [
       "https://www.fan.ru/resize.php?file=f%2F_katalog%2Fbig%2Fal0019s-gamashi-hokk-trik.jpg&size=500&nwm=1",

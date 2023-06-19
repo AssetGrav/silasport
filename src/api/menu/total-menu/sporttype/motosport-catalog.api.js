@@ -1,7 +1,9 @@
+import { v4 as uuidv4 } from "uuid";
+
 export const motoKits = [
   {
-    _id: 1,
-    typeId: "1",
+    _id: uuidv4("sila-"),
+    type: "s-4",
     name: "Мотомайка",
     image: ["/img/moto-sport/cofta.png"],
     price: 15000,
@@ -9,8 +11,8 @@ export const motoKits = [
     category: "мужская",
   },
   {
-    _id: 2,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "s-4",
     name: "Мотомайка",
     image: [
       "/img/moto-sport/switer-1.png",
@@ -24,8 +26,8 @@ export const motoKits = [
     category: "мужская",
   },
   {
-    _id: 3,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "s-4",
     name: "Мото-шорты",
     image: ["/img/moto-sport/opf-8.png"],
     price: 15000,

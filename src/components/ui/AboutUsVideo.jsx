@@ -1,8 +1,8 @@
 import React from "react";
 import { videoFile } from "../../api/video.api";
-import Button from "../common/Button";
 import Video from "../common/Video";
-
+import { Link } from "react-router-dom";
+// на главной странице
 const AboutUsVideo = () => {
   return (
     <div className="px-10">
@@ -17,7 +17,11 @@ const AboutUsVideo = () => {
         ))}
       </div>
       <div className="flex justify-center">
-        <Button text="СМОТРЕТЬ ВСЕ ВИДЕО" />
+        <Link to="/video">
+          <button className="max-h-10 text-justify bg-transparent hover:bg-blue text-dark-blue font-semibold hover:text-white py-2 px-2  border border-blue hover:border-red rounded">
+            СМОТРЕТЬ ВСЕ ВИДЕО
+          </button>
+        </Link>
       </div>
     </div>
   );

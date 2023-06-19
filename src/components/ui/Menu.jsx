@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { sportType } from "../../api/menu/total-menu/sportType.api";
 import { football } from "../../api/menu/total-menu/football.api";
 import { basketball } from "../../api/menu/total-menu/basketball.api";

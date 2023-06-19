@@ -18,7 +18,7 @@ const ServiceInfo = ({ info }) => {
           </ul>
         </div>
         <div>
-          <img src="/img/hockey/tshirts/h-tshirt-14.png" />
+          <img src="/img/hockey/tshirts/h-tshirt-14.png" alt="#" />
         </div>
       </div>
       <ServicesCarousel />

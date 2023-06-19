@@ -12,7 +12,6 @@ const ServicesComponent = ({ linkName, name, fileName, buttons, kits }) => {
 
   const serviceBlock = pathname.substr(19);
 
-  console.log("state", serviceBlock);
   return (
     <div className="container pt-36 pb-10">
       <div className="px-5">

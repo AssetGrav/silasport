@@ -1,6 +1,6 @@
 import React from "react";
 import Baner from "../ui/Baner";
-import Catalog from "../ui/Catalog";
+import Catalog from "../ui/BanerCatalog";
 import OurWorks from "../ui/OurWorks";
 import Advantages from "../ui/Advantages";
 import OurClients from "../ui/OurClients";

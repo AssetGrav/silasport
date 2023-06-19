@@ -1,7 +1,9 @@
+import { v4 as uuidv4 } from "uuid";
+
 export const clothesTshirtPeKits = [
   {
-    _id: 1,
-    typeId: "1",
+    _id: uuidv4("sila-"),
+    type: "c-9",
     name: "Футболки п/э",
     image: ["/img/clothes-tshirt/tshirt-1.png"],
     price: 15000,
@@ -9,8 +11,8 @@ export const clothesTshirtPeKits = [
     category: "мужская",
   },
   {
-    _id: 2,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "c-9",
     name: "Футболка с сублимационным нанесением",
     image: ["/img/clothes-tshirt/tshirt-10.png"],
     price: 15000,
@@ -18,8 +20,8 @@ export const clothesTshirtPeKits = [
     category: "женская",
   },
   {
-    _id: 3,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "c-9",
     name: "Футболка с нанесением",
     image: ["/img/clothes-tshirt/tshirt-20.png"],
     price: 15000,
@@ -27,8 +29,8 @@ export const clothesTshirtPeKits = [
     category: "мужская",
   },
   {
-    _id: 4,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "c-9",
     name: "Футболка с нанесением",
     image: ["/img/clothes-tshirt/tshirt-30.png"],
     price: 15000,
@@ -36,8 +38,8 @@ export const clothesTshirtPeKits = [
     category: "мужская",
   },
   {
-    _id: 5,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "c-9",
     name: "Футболка с нанесением",
     image: ["/img/clothes-tshirt/tshirt-40.png"],
     price: 15000,
@@ -45,8 +47,8 @@ export const clothesTshirtPeKits = [
     category: "мужская",
   },
   {
-    _id: 6,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "c-9",
     name: "Футболка с нанесением",
     image: ["/img/clothes-tshirt/tshirt-50.png"],
     price: 15000,

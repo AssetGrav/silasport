@@ -1,7 +1,9 @@
+import { v4 as uuidv4 } from "uuid";
+
 export const footballWomenKits = [
   {
-    _id: 1,
-    typeId: "1",
+    _id: uuidv4("sila-"),
+    type: "f-2",
     name: "Футбольная форма",
     image: ["/img/football/complect-100.png"],
     price: 15000,
@@ -9,8 +11,8 @@ export const footballWomenKits = [
     category: "женская",
   },
   {
-    _id: 2,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "f-2",
     name: "Футбольная форма",
     image: ["/img/football/complect-210.png", "/img/football/complect-211.png"],
     price: 15000,
@@ -18,8 +20,8 @@ export const footballWomenKits = [
     category: "женская",
   },
   {
-    _id: 3,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "f-2",
     name: "Футбольная форма",
     image: ["/img/football/complect-120.png"],
     price: 15000,
@@ -27,8 +29,8 @@ export const footballWomenKits = [
     category: "женская",
   },
   {
-    _id: 4,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "f-2",
     name: "Футбольная форма",
     image: ["/img/football/complect-130.png", "/img/football/complect-131.png"],
     price: 15000,
@@ -36,8 +38,8 @@ export const footballWomenKits = [
     category: "женская",
   },
   {
-    _id: 5,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "f-2",
     name: "Футбольная форма",
     image: ["/img/football/complect-10.png"],
     price: 15000,
@@ -45,8 +47,8 @@ export const footballWomenKits = [
     category: "женская",
   },
   {
-    _id: 6,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "f-2",
     name: "Футбольная форма",
     image: ["/img/football/complect-150.png"],
     price: 15000,
@@ -54,8 +56,8 @@ export const footballWomenKits = [
     category: "женская",
   },
   {
-    _id: 7,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "f-2",
     name: "Футбольная форма",
     image: ["/img/football/complect-160.png", "/img/football/complect-161.png"],
     price: 15000,
@@ -63,8 +65,8 @@ export const footballWomenKits = [
     category: "женская",
   },
   {
-    _id: 8,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "f-2",
     name: "Футбольная форма",
     image: ["/img/football/complect-30.png"],
     price: 15000,
@@ -72,8 +74,8 @@ export const footballWomenKits = [
     category: "женская",
   },
   {
-    _id: 9,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "f-2",
     name: "Футбольная форма",
     image: ["/img/football/complect-180.png"],
     price: 15000,
@@ -81,8 +83,8 @@ export const footballWomenKits = [
     category: "женская",
   },
   {
-    _id: 10,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "f-2",
     name: "Футбольная форма",
     image: ["/img/football/complect-190.png"],
     price: 15000,
@@ -90,8 +92,8 @@ export const footballWomenKits = [
     category: "женская",
   },
   {
-    _id: 11,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "f-2",
     name: "Футбольная форма",
     image: ["/img/football/complect-210.png"],
     price: 15000,
@@ -99,8 +101,8 @@ export const footballWomenKits = [
     category: "женская",
   },
   {
-    _id: 12,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "f-2",
     name: "Футболка",
     image: ["/img/football/tshirt-1.png", "/img/football/tshirt-2.png"],
     price: 15000,
@@ -108,8 +110,8 @@ export const footballWomenKits = [
     category: "женская",
   },
   {
-    _id: 13,
-    type: "1",
+    _id: uuidv4("sila-"),
+    type: "f-2",
     name: "Футболка",
     image: ["/img/football/short-1.png"],
     price: 15000,
