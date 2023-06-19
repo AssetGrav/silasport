@@ -7,7 +7,9 @@ import { volleyball } from "./menu/total-menu/volleyball.api";
 
 export const totalSport = [
   ...basketball.list,
-  ...clothes.list,
+  ...clothes.list[0].arr,
+  ...clothes.list[1].arr,
+  ...clothes.list[2].arr,
   ...football.list,
   ...hockey.list,
   ...sportType.list,

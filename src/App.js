@@ -46,6 +46,7 @@ import ServicesComponent from "./components/common/ServicesComponent";
 import DrawingComponent from "./components/common/DrawingComponent";
 import VideoAboutUs from "./components/ui/VideoAboutUs";
 import ScrollToTop from "./components/common/ScrollToTop";
+import SearchBlock from "./components/ui/SearchBlock";
 
 function App() {
   return (
@@ -68,6 +69,7 @@ function App() {
             <Route path="fabrics" element={<Fabrics />} />
             <Route path="delivery" element={<Delivery />} />
             <Route path="price" element={<Price />} />
+            <Route path="search" element={<SearchBlock />} />
             <Route path="products/" element={<LayoutProducts />}>
               <Route index element={<Products />} />
 

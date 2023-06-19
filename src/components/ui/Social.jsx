@@ -8,9 +8,9 @@ const Social = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <div className="block w-8 h-8 rounded-lg mr-2 hover:bg-white">
+        <div className="block w-8 h-8 rounded-lg mr-2 hover:bg-white hover:p-1">
           <div
-            className="w-full h-full bg-whatsapp bg-contain bg-no-repeat hover:bg-whatsapp-white"
+            className="w-full h-full bg-whatsapp bg-cover bg-no-repeat"
             alt=""
           />
         </div>
@@ -20,19 +20,20 @@ const Social = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <div className="block w-8 h-8 rounded-lg mr-2 hover:bg-white">
+        <div className="block w-8 h-8 rounded-lg mr-2 bg-gray hover:bg-white hover:p-1">
           <div
-            className="w-full h-full bg-instagram bg-contain bg-no-repeat hover:bg-instagram-white"
+            className="w-full h-full bg-instagram bg-contain bg-no-repeat"
             alt=""
           />
         </div>
       </a>
       <a href="http://t.me/silasport76" target="_blank" rel="noreferrer">
-        <img
-          src="/img/telegram.png"
-          className="block w-8 h-8 rounded-sm mr-2"
-          alt=""
-        />
+        <div className="block w-8 h-8 rounded-lg mr-2 bg-gray hover:bg-white hover:p-1">
+          <div
+            className="w-full h-full bg-telegram bg-contain bg-no-repeat hover:bg-telegram-white"
+            alt=""
+          />
+        </div>
       </a>
     </div>
   );

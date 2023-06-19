@@ -3,8 +3,8 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     colors: {
-      blue: "#1fb6ff",
-      "dark-blue": "#1574a5",
+      blue: "#1A3340",
+      "dark-blue": "#C20000",
       purple: "#7e5bef",
       pink: "#ff49db",
       orange: "#ff7849",
@@ -12,7 +12,7 @@ module.exports = {
       yellow: "#ffc82c",
       "gray-dark": "#273444",
       gray: "#8492a6",
-      "gray-light": "#EFFAFD",
+      "gray-light": "#DCE2E2",
       white: "#ffffff",
       black: "#000000",
       red: "#ff0000",
@@ -38,6 +38,8 @@ module.exports = {
         "instagram-white": "url('/public/img/instagram-icon-white.png')",
         whatsapp: "url('/public/img/whatsapp.png')",
         "whatsapp-white": "url('/public/img/whatsapp-icon-white.png')",
+        telegram: "url('/public/img/telegram.png')",
+        "telegram-white": "url('/public/img/telegram-white.png')",
       },
       backdropOpacity: {
         100: ".100",
