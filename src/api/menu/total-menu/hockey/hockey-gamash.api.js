@@ -6,7 +6,7 @@ export const hockeyGamashKits = [
     type: "h-3",
     name: "Гамаши сублимационные трикотажные простые не разрезные",
     image: ["https://www.fan.ru/f/_katalog/big/gamashipered.jpg"],
-    price: 15000,
+    price: 13000,
     article: "Б-10",
     category: "мужская",
   },

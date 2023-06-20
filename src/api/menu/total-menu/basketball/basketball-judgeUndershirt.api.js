@@ -5,9 +5,9 @@ export const judgeUndershitKits = [
     _id: uuidv4("sila-"),
     type: "b-5",
     name: "Майка судейская",
-    image: ["https://img.prinba.ru/thumb/images/da/dafd0b7jb38_320x0.jpg"],
+    image: [],
     price: 15000,
-    article: "Б-10",
+    article: "Ф-15",
     category: "мужская",
   },
 ];

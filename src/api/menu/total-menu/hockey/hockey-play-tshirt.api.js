@@ -10,8 +10,8 @@ export const hockeyPlayTshirtKits = [
       "/img/hockey/tshirts/h-tshirt-2.png",
       "/img/hockey/tshirts/h-tshirt-3.png",
     ],
-    price: 15000,
-    article: "Б-10",
+    price: 13000,
+    article: "Х-10",
     category: "мужская",
   },
   {
@@ -23,8 +23,8 @@ export const hockeyPlayTshirtKits = [
       "/img/hockey/tshirts/h-tshirt-7.png",
       "/img/hockey/tshirts/h-tshirt-8.png",
     ],
-    price: 15000,
-    article: "ИД-10",
+    price: 13000,
+    article: "Х-10",
     category: "мужская",
   },
   {
@@ -36,8 +36,8 @@ export const hockeyPlayTshirtKits = [
       "/img/hockey/tshirts/h-tshirt-10.png",
       "/img/hockey/tshirts/h-tshirt-11.png",
     ],
-    price: 15000,
-    article: "ИД-11",
+    price: 13000,
+    article: "Х-11",
     category: "мужская",
   },
   {
@@ -49,8 +49,8 @@ export const hockeyPlayTshirtKits = [
       "/img/hockey/tshirts/h-tshirt-13.png",
       "/img/hockey/tshirts/h-tshirt-14.png",
     ],
-    price: 15000,
-    article: "ИД-11",
+    price: 13000,
+    article: "Х-11",
     category: "мужская",
   },
   {
@@ -63,7 +63,7 @@ export const hockeyPlayTshirtKits = [
       "/img/hockey/tshirts/h-tshirt-19.png",
     ],
     price: 15000,
-    article: "ИД-11",
+    article: "Х-11",
     category: "мужская",
   },
   {
@@ -76,7 +76,7 @@ export const hockeyPlayTshirtKits = [
       "/img/hockey/tshirts/h-tshirt-26.png",
     ],
     price: 15000,
-    article: "ИД-11",
+    article: "Х-11",
     category: "мужская",
   },
   {
@@ -89,7 +89,7 @@ export const hockeyPlayTshirtKits = [
       "/img/hockey/tshirts/h-tshirt-38.png",
     ],
     price: 15000,
-    article: "ИД-11",
+    article: "Х-11",
     category: "мужская",
   },
   {
@@ -102,7 +102,7 @@ export const hockeyPlayTshirtKits = [
       "/img/hockey/tshirts/h-tshirt-44.png",
     ],
     price: 15000,
-    article: "ИД-11",
+    article: "Х-11",
     category: "мужская",
   },
   {
@@ -114,8 +114,8 @@ export const hockeyPlayTshirtKits = [
       "/img/hockey/tshirts/h-tshirt-46.png",
       "/img/hockey/tshirts/h-tshirt-47.png",
     ],
-    price: 15000,
-    article: "ИД-11",
+    price: 19000,
+    article: "Х-11",
     category: "мужская",
   },
   {
@@ -127,8 +127,8 @@ export const hockeyPlayTshirtKits = [
       "/img/hockey/tshirts/h-tshirt-49.png",
       "/img/hockey/tshirts/h-tshirt-50.png",
     ],
-    price: 15000,
-    article: "ИД-11",
+    price: 19000,
+    article: "Х-11",
     category: "мужская",
   },
   {
@@ -139,8 +139,8 @@ export const hockeyPlayTshirtKits = [
       "/img/hockey/tshirts/h-tshirt-51.png",
       "/img/hockey/tshirts/h-tshirt-52.png",
     ],
-    price: 15000,
-    article: "ИД-11",
+    price: 19000,
+    article: "Х-11",
     category: "мужская",
   },
   {
@@ -151,8 +151,8 @@ export const hockeyPlayTshirtKits = [
       "/img/hockey/tshirts/h-tshirt-53.png",
       "/img/hockey/tshirts/h-tshirt-54.png",
     ],
-    price: 15000,
-    article: "ИД-11",
+    price: 19000,
+    article: "Х-11",
     category: "мужская",
   },
 ];

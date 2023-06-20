@@ -1,4 +1,4 @@
-// import { v4 as uuidv4 } from "uuid";
+import { v4 as uuidv4 } from "uuid";
 
 export const clothesBomberKits = [
   // {
@@ -14,4 +14,13 @@ export const clothesBomberKits = [
   //   article: "Б-10",
   //   category: "мужская",
   // },
+  {
+    _id: uuidv4("sila-"),
+    type: "c-3",
+    name: "Бомбер",
+    image: ["/img/footysuit/footer-10.png"],
+    price: 22000,
+    article: "КБ-10",
+    category: "женская",
+  },
 ];

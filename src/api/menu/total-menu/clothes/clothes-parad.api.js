@@ -6,7 +6,7 @@ export const clothesParadKits = [
     type: "c-1",
     name: "Парадный костюм",
     image: ["/img/paradsuit/parad-1.png", "/img/paradsuit/parad-2.png"],
-    price: 15000,
+    price: 35000,
     article: "Б-10",
     category: "мужская",
   },

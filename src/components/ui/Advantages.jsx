@@ -49,7 +49,7 @@ const Advantages = () => (
       <div className="flex px-5 py-10 items-center">
         <img
           className="w-20 h-20 object-contain"
-          src="/img/icons/price.svg"
+          src="/img/icons/prace-1.png"
           alt="new"
         />
         <p className="px-5">Выгодные цены</p>

@@ -12,7 +12,7 @@ const Contacts = () => {
         <div className="flex flex-col">
           <h1 className="font-medium text-3xl pb-5">Контакты</h1>
           <div>Минимальный заказ швейной продукции - 1 шт.</div>
-          <div>Минимальный заказ трикотажной продукции - 10 шт.</div>
+          <div>Минимальный командный заказ - 10 шт.</div>
           <p className="text-2xl font-bold py-5">Астана</p>
           <p>Адрес: Атбасарская 36</p>
           <p>Телефоны :+7 (771) 417-18-88</p>
@@ -22,7 +22,6 @@ const Contacts = () => {
             <a href="https://silasport.kz">SilaSport.kz</a>
           </div>
           <p className="text-2xl font-bold py-5">Наши менеджеры</p>
-          <p>Шевченко Анастасия</p>
           <p>
             контактный номер:{" "}
             <a

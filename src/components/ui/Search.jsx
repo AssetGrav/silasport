@@ -5,26 +5,25 @@ import { useNavigate } from "react-router-dom";
 const Search = () => {
   const [searchWord, setSearchWord] = useState("");
   const [active, setActive] = useState(false);
-  const [setProductsFind] = useState();
 
   const navigate = useNavigate();
 
   const findWordInProducts = (products, word) => {
     for (let i = 0; i < products.length; i++) {
-      if (products[i].includes(word)) {
+      if (products[i].toLowerCase().includes(word.toLowerCase())) {
         return true;
       }
     }
     return false;
   };
+  console.log("prod", products);
 
   const handleSearch = (word) => {
     const foundProducts = products.filter((item) => {
       let productName = item.name.split(" ");
       return findWordInProducts(productName, word) === true && item;
     });
-    console.log("1", foundProducts);
-    setProductsFind(foundProducts);
+    console.log("55555", foundProducts);
     if (foundProducts.length > 0) {
       navigate("/search", { state: { list: foundProducts } });
     }

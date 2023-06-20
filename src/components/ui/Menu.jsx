@@ -34,7 +34,14 @@ const Menu = () => {
     >
       <div className="flex flex-row justify-center bg-white">
         {arr.map((obj) => (
-          <div key={obj.name} className="mx-5">
+          <div
+            key={obj.name}
+            className={`px-5 ${
+              obj.name.toLowerCase() === "услуги"
+                ? ""
+                : "border-r-2 border-blue"
+            }`}
+          >
             <div
               onMouseEnter={() => setIsShown(obj.name)}
               className="text-red hover:text-dark-blue"

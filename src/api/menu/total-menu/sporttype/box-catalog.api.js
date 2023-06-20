@@ -6,8 +6,8 @@ export const boxKits = [
     type: "s-5",
     name: "Боксерская форма",
     image: ["/img/mma/complect-box-1.png"],
-    price: 15000,
-    article: "Б-10",
+    price: 13000,
+    article: "БО-10",
     category: "мужская",
   },
   {
@@ -15,8 +15,8 @@ export const boxKits = [
     type: "s-5",
     name: "Боксерская форма",
     image: ["/img/mma/complect-box-2.png"],
-    price: 15000,
-    article: "ИД-10",
+    price: 23000,
+    article: "БО-11",
     category: "мужская",
   },
 ];

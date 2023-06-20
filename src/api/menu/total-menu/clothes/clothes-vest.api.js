@@ -6,8 +6,8 @@ export const clothesVestKits = [
     type: "c-7",
     name: "Жилет",
     image: ["/img/vest/vest-1.png", "/img/vest/vest-1.png"],
-    price: 15000,
-    article: "Б-10",
+    price: 30000,
+    article: "ЖУ-10",
     category: "мужская",
   },
 ];

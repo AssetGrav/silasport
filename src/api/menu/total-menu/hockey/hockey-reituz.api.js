@@ -8,7 +8,7 @@ export const hockeyReituzKits = [
     image: [
       "https://basket-03.wb.ru/vol331/part33189/33189517/images/big/2.jpg",
     ],
-    price: 15000,
+    price: 12000,
     article: "Б-10",
     category: "мужская",
   },
