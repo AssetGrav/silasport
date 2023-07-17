@@ -8,7 +8,10 @@ const Gallery = () => {
     <div className="container pt-36">
       <div className="px-5 pb-10">
         <LinkArrow name="Галерея работ" />
-        <h1 className="font-medium text-3xl py-5"> Галерея работ</h1>
+        <h1 className="flex justify-center font-medium text-3xl py-5">
+          {" "}
+          Галерея работ
+        </h1>
         <div className="flex flex-col text-xl">
           Уважаемые клиенты!
           <div className="pt-5">

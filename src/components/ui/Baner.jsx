@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Baner = () => {
   return (
-    <div className="flex my-5 bg-gray-light px-10 ">
+    <div className="flex my-5 bg-baner bg-cover px-10 ">
       <div className="ml-10">
         <h1 className="flex text-5xl font-bold my-5">
           <p className="text-red pr-3">SilaSport</p>- пошив спортивной одежды на

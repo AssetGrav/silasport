@@ -8,7 +8,7 @@ const RugbyType = () => {
     <ProductsComponent
       linkName="Регби"
       name="Магазин регби – форма, одежда, экипировка"
-      fileName=""
+      fileName="banner-american-football.png"
       buttons={sportType.list}
       kits={regbyKits}
     />

@@ -15,11 +15,11 @@ export const clothes = {
           name: "Трикотажные костюмы",
           host: "clothes/knitted",
         },
-        {
-          _id: "c-3",
-          name: "Футеровые костюмы",
-          host: "clothes/footy",
-        },
+        // {
+        //   _id: "c-3",
+        //   name: "Футеровые костюмы",
+        //   host: "clothes/footy",
+        // },
         {
           _id: "c-4",
           name: "Бомберы",

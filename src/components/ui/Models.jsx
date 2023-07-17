@@ -5,6 +5,8 @@ import { clothesTshirtPeKits } from "../../api/menu/total-menu/clothes/clothes-t
 import { footballManKits } from "../../api/menu/total-menu/football/football-man.api";
 import { hockeyTrainingTshirtKits } from "../../api/menu/total-menu/hockey/hockey-training-tshirt.api";
 import { kokparKits } from "../../api/menu/total-menu/sporttype/kokpar-catalog.api";
+import ProductsList from "./ProductsList";
+import NewCarouselItems from "../common/NewCarouseItems";
 
 const Models = () => {
   const list = [
@@ -16,10 +18,12 @@ const Models = () => {
   ];
   return (
     <div className="container">
-      <h1 className="flex justify-center text-red text-2xl font-bold mt-10 mb-2">
+      <h1 className="flex justify-center text-red text-2xl font-bold mt-14 mb-10">
         МОДЕЛИ
       </h1>
-      <CarouselItems kits={list} num={4} photo={false} carousel={true} />
+      {/* <ProductsList kit={list} carousel={true} /> */}
+      <NewCarouselItems kits={list} num={4} photo={false} carousel={true} />
+      {/* <CarouselItems kits={list} num={4} photo={false} carousel={true} /> */}
     </div>
   );
 };

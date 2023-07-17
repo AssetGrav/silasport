@@ -16,14 +16,13 @@ const Search = () => {
     }
     return false;
   };
-  console.log("prod", products);
 
   const handleSearch = (word) => {
     const foundProducts = products.filter((item) => {
       let productName = item.name.split(" ");
       return findWordInProducts(productName, word) === true && item;
     });
-    console.log("55555", foundProducts);
+
     if (foundProducts.length > 0) {
       navigate("/search", { state: { list: foundProducts } });
     }
@@ -45,7 +44,7 @@ const Search = () => {
         onChange={handleChange}
       />
       <button
-        className="px-4 "
+        className="px-4"
         onClick={() => handleSearch(searchWord)}
         disabled={!active ? true : false}
       >
@@ -53,7 +52,7 @@ const Search = () => {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
-            className="w-full h-full hover:w-5 hover:h-5"
+            className="w-full h-full hover:w-7 hover:h-7"
             viewBox="0 0 24 24"
             stroke="white"
             strokeWidth={2}

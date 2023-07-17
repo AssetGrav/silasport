@@ -8,7 +8,7 @@ const MotoSportType = () => {
     <ProductsComponent
       linkName="Мотоспорт"
       name="Одежда для мото – мото майки, мото футболки, мото форма"
-      fileName=""
+      fileName="banner-motosport.png"
       buttons={sportType.list}
       kits={motoKits}
     />

@@ -8,7 +8,7 @@ const UndershirtBasketball = () => {
     <ProductsComponent
       linkName="Разминочные майки"
       name="Баскетбольные разминочные майки"
-      fileName=""
+      fileName="banner-basketball.png"
       buttons={basketball.list}
       kits={basketballUndershirtKits}
     />

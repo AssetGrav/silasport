@@ -1,10 +1,13 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import process from "process";
 
 const ContactUs = () => {
   const form = useRef();
   const [data, setData] = useState("");
   const [error, setError] = useState();
+
+  console.log("555", process.env.REACT_APP_YOUR_SERVICE_ID);
 
   const handleChange = ({ target }) => {
     setData(target.value);
@@ -15,10 +18,10 @@ const ContactUs = () => {
 
     emailjs
       .sendForm(
-        "service_5foot5f",
-        "template_znne9ai",
+        process.env.REACT_APP_YOUR_SERVICE_ID,
+        process.env.REACT_APP_YOUR_TEMPLATE_ID,
         form.current,
-        "Yuvmt3f6PzXicLCsr"
+        "aFNhwjSZ8u3Y_VWcr"
       )
       .then(
         (result) => {

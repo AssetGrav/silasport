@@ -23,13 +23,14 @@ const CarouselComponent = ({ works, number, num }) => {
       items: 1,
     },
   };
+
   return (
     <Carousel
       responsive={responsive}
       removeArrowOnDeviceType={["tablet", "mobile"]}
       itemClass="carousel-item-padding-40-px"
-      swipeable={false}
-      draggable={false}
+      swipeable={true}
+      draggable={true}
       infinite={true}
     >
       {works.map((elem) => (

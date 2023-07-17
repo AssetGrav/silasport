@@ -2,6 +2,7 @@ import React from "react";
 import LinkArrow from "../LinkArrow";
 import TableMenu from "../../common/TableMenu";
 import { info } from "../../../api/menu/header/info.api";
+import FabricInfo from "../FabricInfo";
 
 const Fabrics = () => {
   return (
@@ -30,6 +31,7 @@ const Fabrics = () => {
             известные бренды для экипировки национальных сборных и команд NHL.
           </p>
           <br />
+          <FabricInfo />
         </div>
       </div>
     </div>

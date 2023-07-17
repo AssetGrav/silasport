@@ -3,6 +3,11 @@ import React from "react";
 const Social = () => {
   return (
     <div className="flex justify-between pb-1">
+      <a href="mailto:SilaSport.kz" target="_blank" rel="noreferrer">
+        <div className="block w-12 h-8 rounded-lg mr-2 hover:bg-red">
+          <div className="w-full h-full bg-mail bg-cover bg-no-repeat" alt="" />
+        </div>
+      </a>
       <a
         href="https://api.whatsapp.com/send/?phone=%2B77714171888&text&type=phone_number&app_absent=0"
         target="_blank"

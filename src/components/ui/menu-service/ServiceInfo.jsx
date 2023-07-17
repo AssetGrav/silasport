@@ -1,5 +1,4 @@
 import React from "react";
-import ServicesCarousel from "../ServicesCarousel";
 
 const ServiceInfo = ({ info }) => {
   return (
@@ -21,7 +20,6 @@ const ServiceInfo = ({ info }) => {
           <img src="/img/hockey/tshirts/h-tshirt-14.png" alt="#" />
         </div>
       </div>
-      <ServicesCarousel />
     </>
   );
 };

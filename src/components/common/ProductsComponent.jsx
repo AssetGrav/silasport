@@ -8,7 +8,6 @@ import { useLocation } from "react-router-dom";
 
 const ProductsComponent = ({ linkName, name, fileName, buttons, kits }) => {
   const { state } = useLocation();
-
   return (
     <div className="container pt-36 pb-10">
       <div className="px-5">
@@ -26,9 +25,10 @@ const ProductsComponent = ({ linkName, name, fileName, buttons, kits }) => {
           {name}
         </h2>
 
-        <div className=" my-10">
+        <div className="my-10">
           {kits && <ProductsList list={kits} state={state} />}
         </div>
+
         <div className="my-10">
           <Advantages />
         </div>

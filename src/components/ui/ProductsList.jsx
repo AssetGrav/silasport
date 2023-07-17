@@ -8,10 +8,8 @@ const ProductsList = ({ list, state }) => {
     const findedHost = totalSport.find((elem) => {
       return elem._id === type && elem;
     });
-    console.log("4444", findedHost);
     return findedHost.host;
   };
-  console.log("total", totalSport);
 
   return (
     <div className="grid grid-cols-4 gap-4 content-start">

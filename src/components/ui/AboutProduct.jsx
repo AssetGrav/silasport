@@ -8,7 +8,7 @@ const AboutProduct = ({ product }) => {
   return (
     <div>
       <h2 className="font-bold text-xl">{product.name}</h2>
-      <div className="font-bold py-5">Функциональные особенности:</div>
+      {/* <div className="font-bold py-5">Функциональные особенности:</div> */}
       <ul className="list-disc list-inside">
         {features !== undefined
           ? features.features.map((elem) => (

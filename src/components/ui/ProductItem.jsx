@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import LinkArrow from "./LinkArrow";
 import { useLocation } from "react-router-dom";
 import CarouselItems from "../common/CarouselItems";
@@ -8,10 +8,15 @@ import ContactUs from "./ContactUs";
 
 const ProductItem = () => {
   const { state } = useLocation();
+  const [showModal, setShowModal] = useState(false);
+  const handleModal = () => {
+    setShowModal(true);
+  };
 
   const products = state.some.image.map((elem, index) => {
     return { _id: index, image: elem };
   });
+
   return (
     <div className="container pt-36 pb-10">
       <div className="px-5">

@@ -12,7 +12,7 @@ const DropItemList = ({ list, menu }) => {
         >
           <div
             key={elem._id}
-            className="p-2 w-full text-dark-blue block px-4 hover:bg-gray-light"
+            className="p-2 w-full text-dark-blue px-2 hover:bg-gray-light hover:rounded-lg hover:text-red"
           >
             {elem.name}
           </div>

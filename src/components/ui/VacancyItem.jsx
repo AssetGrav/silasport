@@ -3,7 +3,7 @@ import React from "react";
 const VacancyItem = ({ props }) => {
   return (
     <div className="flex flex-col justify-start m-5">
-      <h2 className="font-medium text-xl">Графический дизайнер</h2>
+      <h2 className="font-medium text-xl">{props.name}</h2>
       <div className="font-bold py-5">Требования:</div>
 
       <ul className="list-inside list-disc px-5">

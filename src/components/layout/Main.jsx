@@ -9,7 +9,7 @@ import Carousel from "../ui/Models";
 
 const Main = () => {
   return (
-    <div className="container pt-36">
+    <div className="pt-36">
       <Baner />
       <Catalog />
       <Carousel />

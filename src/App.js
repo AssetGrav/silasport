@@ -37,6 +37,7 @@ import { volleyball } from "./api/menu/total-menu/volleyball.api";
 import ManVoleyball from "./components/ui/products/voleyball/ManVoleyball";
 import { voleyballWomenKits } from "./api/menu/total-menu/voleyball/voleyball-woman-catalog.api";
 import {
+  attributesRoute,
   clothesRoute,
   drawingRoute,
   hockeyRoute,
@@ -47,6 +48,8 @@ import DrawingComponent from "./components/common/DrawingComponent";
 import VideoAboutUs from "./components/ui/VideoAboutUs";
 import ScrollToTop from "./components/common/ScrollToTop";
 import SearchBlock from "./components/ui/SearchBlock";
+import Certificate from "./components/ui/about/Certificate";
+import WorksGallery from "./components/ui/about/WorksGallery";
 
 function App() {
   return (
@@ -57,6 +60,8 @@ function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<Main />} />
             <Route path="about" element={<About />} />
+            <Route path="certificate" element={<Certificate />} />
+            <Route path="worksgallery" element={<WorksGallery />} />
             <Route path="vacancies" element={<Vacancies />} />
             <Route path="details" element={<Details />} />
             <Route path="gallery" element={<Gallery />} />
@@ -119,7 +124,7 @@ function App() {
                     <ProductsComponent
                       linkName="Женская форма на заказ"
                       name="Женская волейбольная форма на заказ"
-                      fileName=""
+                      fileName="banner-vol.png"
                       buttons={volleyball.list}
                       kits={voleyballWomenKits}
                     />
@@ -184,6 +189,8 @@ function App() {
                         fileName={elem.fileName}
                         buttons={elem.buttons}
                         kits={elem.kits}
+                        works={elem.works}
+                        photo={elem.photo}
                       />
                     }
                   ></Route>
@@ -201,6 +208,31 @@ function App() {
                     path={elem.host}
                     element={
                       <ServicesComponent
+                        linkName={elem.linkName}
+                        name={elem.name}
+                        fileName={elem.fileName}
+                        buttons={elem.buttons}
+                        kits={elem.kits}
+                        info={elem.info}
+                        list={elem.list}
+                        works={elem.works}
+                      />
+                    }
+                  />
+                  <Route path={elem.host + ":id"} element={<ProductItem />} />
+                </Route>
+              ))}
+              {attributesRoute.map((elem) => (
+                <Route
+                  key={elem.host}
+                  path="attribute"
+                  element={<LayoutForAll />}
+                >
+                  <Route
+                    key={elem.host}
+                    path={elem.host}
+                    element={
+                      <ProductsComponent
                         linkName={elem.linkName}
                         name={elem.name}
                         fileName={elem.fileName}

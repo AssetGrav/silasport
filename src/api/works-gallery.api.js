@@ -1,5 +1,45 @@
 export const works = [
   {
+    _id: 70,
+    name: "Разработка игровой формы для команды",
+    image: "/img/gallery/70.jpg",
+  },
+  {
+    _id: 71,
+    name: "Разработка игровой формы для команды",
+    image: "/img/gallery/71.jpg",
+  },
+  {
+    _id: 72,
+    name: "Разработка игровой формы для команды",
+    image: "/img/gallery/72.jpg",
+  },
+  {
+    _id: 73,
+    name: "Разработка игровой формы для команды",
+    image: "/img/gallery/73.jpg",
+  },
+  {
+    _id: 74,
+    name: "Разработка игровой формы для команды",
+    image: "/img/gallery/74.jpg",
+  },
+  {
+    _id: 75,
+    name: "Разработка игровой формы для команды",
+    image: "/img/gallery/75.jpg",
+  },
+  {
+    _id: 76,
+    name: "Разработка игровой формы для команды",
+    image: "/img/gallery/76.jpg",
+  },
+  {
+    _id: 77,
+    name: "Разработка игровой формы для команды",
+    image: "/img/gallery/77.jpg",
+  },
+  {
     _id: 1,
     name: "Разработка игровой формы для команды",
     image: "/img/gallery/1.jpg",

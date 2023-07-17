@@ -9,13 +9,14 @@ const ProductBaner = ({ fileName }) => {
     borderBottom: "250px solid transparent",
     zIndex: "30",
   };
+
   return (
     <div className="flex flex-row ">
       <div className=" w-2/3 h-full py-2">
         <div
           style={{
             backgroundImage: `url("/img/product-header/${
-              fileName !== "" ? fileName : "404.jpg"
+              fileName !== "" ? fileName : "banner-all.png"
             }" )`,
             height: "490px",
           }}

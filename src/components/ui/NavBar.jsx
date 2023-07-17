@@ -15,11 +15,6 @@ const NavBar = () => {
           <div className="container mx-auto">
             <div className="flex justify-between pt-2 ">
               <div className=" flex basis-2/3">
-                <div className="w-16 my-3 flex flex-wrap text-xs	">
-                  <div className="mx-3 bg-blue w-10 h-1"></div>
-                  <div className="mx-3 bg-blue w-10 h-1"></div>
-                  <div className="mx-3 bg-blue w-10 h-1"></div>
-                </div>
                 <Link to="/" className="flex w-100 h-full">
                   <div className="py-2 px-20 font-bold bg-contain bg-no-repeat bg-center bg-logo"></div>
                 </Link>

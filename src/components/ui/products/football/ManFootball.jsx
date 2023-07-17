@@ -8,7 +8,7 @@ const ManFootball = () => {
     <ProductsComponent
       linkName="Форма на заказ"
       name="Футбольная форма на заказ - пошив, изготовление по вашему эскизу (мужская)"
-      fileName=""
+      fileName="banner-football.png"
       buttons={football.list}
       kits={footballManKits}
     />

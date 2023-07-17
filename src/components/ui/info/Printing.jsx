@@ -3,7 +3,12 @@ import LinkArrow from "../LinkArrow";
 import TableMenu from "../../common/TableMenu";
 import { info } from "../../../api/menu/header/info.api";
 import CarouselComponent from "../../common/CarouselComponent";
-import { printing } from "../../../api/menu/header/printing/printing.api";
+import {
+  embroidery,
+  printing,
+  subPrinting,
+  termoflexprint,
+} from "../../../api/menu/header/printing/printing.api";
 
 const Printing = () => {
   return (
@@ -105,7 +110,11 @@ const Printing = () => {
           </p>
           {/* carusel */}
           <div className="max-w-6xl h-36 my-10 px-10">
-            <CarouselComponent works={printing} num={4} number="w-36 h-36" />
+            <CarouselComponent
+              works={termoflexprint}
+              num={4}
+              number="w-36 h-36"
+            />
           </div>
           <p>
             Нанесение очень стойкое, при правильной эксплуатации срок службы
@@ -134,7 +143,7 @@ const Printing = () => {
           </p>
           {/* carousel */}
           <div className="max-w-6xl h-48 my-10">
-            <CarouselComponent works={printing} num={4} number="w-36 h-36" />
+            <CarouselComponent works={subPrinting} num={4} number="w-36 h-36" />
           </div>
           <p>
             Однако такое нанесение можно сделать только на белую ткань, так как
@@ -168,7 +177,7 @@ const Printing = () => {
           </p>
           {/* carousel */}
           <div className="max-w-6xl h-48 my-10">
-            <CarouselComponent works={printing} num={4} number="w-36 h-36" />
+            <CarouselComponent works={embroidery} num={4} number="w-36 h-36" />
           </div>
           <p>
             Стоимость вышивки всегда рассчитывается индивидуально, цена зависит

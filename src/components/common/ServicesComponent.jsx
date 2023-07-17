@@ -6,8 +6,20 @@ import ProductsList from "../ui/ProductsList";
 import Advantages from "../ui/Advantages";
 import Services from "../ui/Services";
 import { useLocation } from "react-router-dom";
+import ServiceBlock from "../ui/ServiceBlock";
+import PhotoGallery from "./PhotoGallery";
+import ServicesCarousel from "../ui/ServicesCarousel";
 
-const ServicesComponent = ({ linkName, name, fileName, buttons, kits }) => {
+const ServicesComponent = ({
+  linkName,
+  name,
+  fileName,
+  buttons,
+  kits,
+  info,
+  list,
+  works,
+}) => {
   const { pathname } = useLocation();
 
   const serviceBlock = pathname.substr(19);
@@ -29,8 +41,14 @@ const ServicesComponent = ({ linkName, name, fileName, buttons, kits }) => {
         </h2>
 
         <div className=" my-10">{kits && <ProductsList list={kits} />}</div>
+
+        <div className="my-10">{info && <ServiceBlock name={linkName} />}</div>
         <div className="my-10">
           <Services block={serviceBlock} />
+        </div>
+        <div className="my-10">{list && <PhotoGallery list={list} />}</div>
+        <div className="my-10">
+          {works && <ServicesCarousel works={works} num={4} />}
         </div>
         <div className="my-10">
           <Advantages />

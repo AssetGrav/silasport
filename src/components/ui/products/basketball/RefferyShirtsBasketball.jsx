@@ -8,7 +8,7 @@ const RefferyShirtsBasketball = () => {
     <ProductsComponent
       linkName="Майка судейская"
       name="Баскетбольная майка для судьи"
-      fileName=""
+      fileName="banner-basketball.png"
       buttons={basketball.list}
       kits={judgeUndershitKits}
     />

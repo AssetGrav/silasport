@@ -13,7 +13,7 @@ export const sportType = {
     },
     {
       _id: "s-3",
-      name: "Рэгби",
+      name: "Американский футбол",
       host: "type/rugby",
     },
     {

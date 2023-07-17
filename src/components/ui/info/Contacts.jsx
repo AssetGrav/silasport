@@ -13,24 +13,32 @@ const Contacts = () => {
           <h1 className="font-medium text-3xl pb-5">Контакты</h1>
           <div>Минимальный заказ швейной продукции - 1 шт.</div>
           <div>Минимальный командный заказ - 10 шт.</div>
-          <p className="text-2xl font-bold py-5">Астана</p>
-          <p>Адрес: Атбасарская 36</p>
-          <p>Телефоны :+7 (771) 417-18-88</p>
-          <p>Режим работы: С 8:00 до 18:00 по рабочим дням.</p>
-          <div>
-            Суббота до 13:00 Оформить заявку:{" "}
-            <a href="https://silasport.kz">SilaSport.kz</a>
+          <div className="text-2xl py-5">Астана</div>
+          <div className="font-bold">
+            {" "}
+            <div>Адрес: Атбасарская 36</div>
+            <br />
+            <div>
+              Телефоны :
+              <p className="font-thin">
+                +7 (771) 417-18-88, +7 (707) 850-07-80
+              </p>
+            </div>
+            <br />
+            <div>
+              Режим работы: С 8:00 до 18:00 по рабочим дням. Суббота до 13:00{" "}
+            </div>
+            <div className="text-red">
+              Оформить заявку:
+              <a
+                href="mailto:SiLaSport76@mail.ru"
+                className="text-dark-blue hover:text-blue"
+              >
+                {" "}
+                SiLaSport76@mail.ru
+              </a>
+            </div>
           </div>
-          <p className="text-2xl font-bold py-5">Наши менеджеры</p>
-          <p>
-            контактный номер:{" "}
-            <a
-              href="mailto:SiLaSport76@mail.ru"
-              className="text-dark-blue hover:text-blue"
-            >
-              +7 (771) 417-18-88
-            </a>
-          </p>
         </div>
       </div>
     </div>

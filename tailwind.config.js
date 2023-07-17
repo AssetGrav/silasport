@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     colors: {
       blue: "#1A3340",
-      "dark-blue": "#C20000",
+      "dark-blue": "#405B69",
       purple: "#7e5bef",
       pink: "#ff49db",
       orange: "#ff7849",
@@ -40,6 +40,9 @@ module.exports = {
         "whatsapp-white": "url('/public/img/whatsapp-icon-white.png')",
         telegram: "url('/public/img/telegram.png')",
         "telegram-white": "url('/public/img/telegram-white.png')",
+        mail: "url('/public/img/mail.png')",
+        "mail-white": "url('/public/img/email-white.png')",
+        baner: "url('/public/img/fone.png')",
       },
       backdropOpacity: {
         100: ".100",

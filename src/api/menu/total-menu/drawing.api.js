@@ -11,11 +11,11 @@ export const drawing = {
           name: "НА ФУТБОЛЬНУЮ ФОРМУ",
           host: "drawing/football",
         },
-        {
-          _id: "2",
-          name: "НА ФУТБОЛКИ",
-          host: "drawing/tshits",
-        },
+        // {
+        //   _id: "2",
+        //   name: "НА ФУТБОЛКИ",
+        //   host: "drawing/tshits",
+        // },
         {
           _id: "3",
           name: "НА ВОЛЕЙБОЛЬНУЮ ФОРМУ",
@@ -36,26 +36,26 @@ export const drawing = {
           name: "НА СПОРТИВНЫЕ КОСТЮМЫ",
           host: "drawing/suit",
         },
-        {
-          _id: "7",
-          name: "НА ТОЛСТОВКИ",
-          host: "drawing/sweatshirts",
-        },
-        {
-          _id: "8",
-          name: "НА БЕЙСБОЛКИ",
-          host: "drawing/baseball",
-        },
-        {
-          _id: "9",
-          name: "НА СПОРТИВНУЮ ФОРМУ",
-          host: "drawing/sport-form",
-        },
-        {
-          _id: "10",
-          name: "НА СПОРТИВНУЮ ОДЕЖДУ",
-          host: "drawing/sport-clothes",
-        },
+        // {
+        //   _id: "7",
+        //   name: "НА ТОЛСТОВКИ",
+        //   host: "drawing/sweatshirts",
+        // },
+        // {
+        //   _id: "8",
+        //   name: "НА БЕЙСБОЛКИ",
+        //   host: "drawing/baseball",
+        // },
+        // {
+        //   _id: "9",
+        //   name: "НА СПОРТИВНУЮ ФОРМУ",
+        //   host: "drawing/sport-form",
+        // },
+        // {
+        //   _id: "10",
+        //   name: "НА СПОРТИВНУЮ ОДЕЖДУ",
+        //   host: "drawing/sport-clothes",
+        // },
       ],
     },
   ],
