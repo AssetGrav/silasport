@@ -2,7 +2,7 @@ import React from "react";
 
 const Advantages = () => (
   <div className="px-5">
-    <h1 className="flex justify-center text-red text-2xl font-bold mt-14 mb-10">
+    <h1 className="flex justify-center text-dark-blue text-2xl font-bold mt-14 mb-10">
       НАШИ ПРЕЙМУЩЕСТВА
     </h1>
     <div className="my-5 grid grid-rows-2 grid-flow-col gap-4 bg-gray-light p-10">

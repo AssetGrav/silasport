@@ -1,7 +1,6 @@
 import React from "react";
-import { fabricInfo } from "../../api/menu/header/info-fabric.api";
 
-const FabricInfo = () => {
+const FabricInfo = ({ fabricInfo }) => {
   return (
     <div className="flex flex-col">
       {fabricInfo.map((elem) => (

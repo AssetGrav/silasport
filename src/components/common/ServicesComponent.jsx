@@ -9,6 +9,7 @@ import { useLocation } from "react-router-dom";
 import ServiceBlock from "../ui/ServiceBlock";
 import PhotoGallery from "./PhotoGallery";
 import ServicesCarousel from "../ui/ServicesCarousel";
+import FabricInfo from "../ui/FabricInfo";
 
 const ServicesComponent = ({
   linkName,
@@ -19,6 +20,7 @@ const ServicesComponent = ({
   info,
   list,
   works,
+  fabricInfo,
 }) => {
   const { pathname } = useLocation();
 
@@ -31,7 +33,7 @@ const ServicesComponent = ({
         <h1 className="flex justify-center font-medium text-3xl py-5">
           {name}
         </h1>
-        <ProductBaner fileName={fileName} />
+        <ProductBaner fileName={fileName} fabricInfo={fabricInfo} />
         <div>
           <ButtonList buttons={buttons} />
         </div>
@@ -46,9 +48,28 @@ const ServicesComponent = ({
         <div className="my-10">
           <Services block={serviceBlock} />
         </div>
-        <div className="my-10">{list && <PhotoGallery list={list} />}</div>
+        <div className="my-10">
+          {list && (
+            <div>
+              <h1 className="flex justify-center text-dark-blue text-2xl font-bold mt-14 mb-10">
+                НАШИ РАБОТЫ
+              </h1>
+              <PhotoGallery list={list} />
+            </div>
+          )}
+        </div>
         <div className="my-10">
           {works && <ServicesCarousel works={works} num={4} />}
+        </div>
+        <div className="my-10">
+          {fabricInfo && (
+            <div className="mx-48">
+              <h1 className="flex justify-center text-dark-blue text-2xl font-bold mt-14 mb-10">
+                ВИДЫ ТКАНЕЙ ДЛЯ ШИРОКОФОРМАТНОЙ ПЕЧАТИ
+              </h1>
+              <FabricInfo fabricInfo={fabricInfo} />
+            </div>
+          )}
         </div>
         <div className="my-10">
           <Advantages />

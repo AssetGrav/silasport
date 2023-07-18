@@ -48,7 +48,7 @@ const BanerCatalog = () => {
   ];
   return (
     <div className="container">
-      <h1 className="flex justify-center text-2xl font-bold text-red mt-14 mb-10">
+      <h1 className="flex justify-center text-2xl font-bold text-dark-blue mt-14 mb-10">
         КАТАЛОГ ГОТОВОЙ И ЗАКАЗНОЙ ПРОДУКЦИИ
       </h1>
       <div className="px-5 py-2">

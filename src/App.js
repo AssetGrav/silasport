@@ -216,6 +216,7 @@ function App() {
                         info={elem.info}
                         list={elem.list}
                         works={elem.works}
+                        fabricInfo={elem.fabricInfo}
                       />
                     }
                   />

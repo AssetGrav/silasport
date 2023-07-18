@@ -41,6 +41,7 @@ import { basketballUndershirtKits } from "../../api/menu/total-menu/basketball/b
 import { footballWomenKits } from "../../api/menu/total-menu/football/football-women.api";
 import { voleyballManKits } from "../../api/menu/total-menu/voleyball/voleyball-man-catalog.api";
 import { voleyballWomenKits } from "../../api/menu/total-menu/voleyball/voleyball-woman-catalog.api";
+import { fabricInfo } from "../../api/menu/header/info-fabric.api";
 
 export const hockeyRoute = [
   {
@@ -282,6 +283,7 @@ export const servicesRoute = [
     buttons: services.list[0].arr,
     info: "true",
     list: printClothes,
+    fabricInfo: fabricInfo,
   },
   {
     host: "print-clothes-sublimation/",

@@ -34,7 +34,6 @@ const Contacts = () => {
                 href="mailto:SiLaSport76@mail.ru"
                 className="text-dark-blue hover:text-blue"
               >
-                {" "}
                 SiLaSport76@mail.ru
               </a>
             </div>

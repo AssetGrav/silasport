@@ -43,7 +43,7 @@ const Menu = () => {
           >
             <div
               onMouseEnter={() => setIsShown(obj.name)}
-              className="text-red hover:text-dark-blue"
+              className=" text-dark-blue hover:text-red"
             >
               {obj.name}
             </div>

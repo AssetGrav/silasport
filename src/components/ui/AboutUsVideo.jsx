@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const AboutUsVideo = () => {
   return (
     <div className="px-10">
-      <h1 className="flex justify-center text-red text-2xl font-bold mt-14 ">
+      <h1 className="flex justify-center text-dark-blue text-2xl font-bold mt-14 ">
         ВИДЕО О НАС
       </h1>
       <div className="my-5 flex flex-row">

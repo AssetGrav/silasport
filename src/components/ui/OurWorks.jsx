@@ -10,7 +10,7 @@ const OurWorks = () => {
   });
   return (
     <div className="px-5 ">
-      <h1 className="flex justify-center text-red text-2xl font-bold mt-14 mb-10">
+      <h1 className="flex justify-center text-dark-blue text-2xl font-bold mt-14 mb-10">
         НАШИ РАБОТЫ
       </h1>
       <CarouselComponent works={newWorks} number="w-full h-72" num={3} />

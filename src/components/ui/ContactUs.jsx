@@ -7,8 +7,6 @@ const ContactUs = () => {
   const [data, setData] = useState("");
   const [error, setError] = useState();
 
-  console.log("555", process.env.REACT_APP_YOUR_SERVICE_ID);
-
   const handleChange = ({ target }) => {
     setData(target.value);
   };
