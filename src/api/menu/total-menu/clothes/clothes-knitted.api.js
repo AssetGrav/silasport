@@ -5,6 +5,15 @@ export const clothesKnittedKits = [
     _id: uuidv4("sila-"),
     type: "c-2",
     name: "Трикотажный костюм",
+    image: ["/img/clothes/knitten/5-1.png", "/img/clothes/knitten/5-2.png"],
+    price: 25000,
+    article: "Б-10",
+    category: "мужская",
+  },
+  {
+    _id: uuidv4("sila-"),
+    type: "c-2",
+    name: "Трикотажный костюм",
     image: [
       "/img/clothes/knitten/1-1.png",
       "/img/clothes/knitten/1-2.png",

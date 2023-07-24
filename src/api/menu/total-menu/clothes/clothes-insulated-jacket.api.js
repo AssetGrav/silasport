@@ -43,4 +43,17 @@ export const clothesInsulatedJacketKits = [
     article: "К-11",
     category: "мужская",
   },
+  {
+    _id: uuidv4("sila-"),
+    type: "c-5",
+    name: "Куртка утепленная",
+    image: [
+      "/img/clothes/jacket/4-1.png",
+      "/img/clothes/jacket/4-2.png",
+      "/img/clothes/jacket/4-3.png",
+    ],
+    price: 35000,
+    article: "К-11",
+    category: "мужская",
+  },
 ];
