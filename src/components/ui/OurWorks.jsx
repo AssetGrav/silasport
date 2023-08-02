@@ -13,7 +13,11 @@ const OurWorks = () => {
       <h1 className="flex justify-center text-dark-blue text-2xl font-bold mt-14 mb-10">
         НАШИ РАБОТЫ
       </h1>
-      <CarouselComponent works={newWorks} number="w-full h-72" num={3} />
+      <CarouselComponent
+        works={newWorks}
+        number="w-full h-40 md:h-56 xl:h-72"
+        num={3}
+      />
       <div className="flex justify-center">
         <Link to="/gallery">
           <button className="max-h-10 text-justify bg-transparent hover:bg-blue text-dark-blue font-semibold hover:text-white py-2 px-2  border border-blue hover:border-red rounded">

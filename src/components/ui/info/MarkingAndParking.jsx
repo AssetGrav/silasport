@@ -5,10 +5,12 @@ import LinkArrow from "../LinkArrow";
 
 const MarkingAndParking = () => {
   return (
-    <div className="container pt-36 pb-10">
+    <div className="container pt-36 pb-10 md:pt-40">
       <LinkArrow name="Маркировка и упаковка изделий" />
       <div className="flex flex-row px-5 py-10">
-        <TableMenu list={info.list} />
+        <div className="hidden lg:flex">
+          <TableMenu list={info.list} />
+        </div>
         <div className="flex flex-col">
           <h1 className="font-medium text-3xl pb-5">
             Маркировка и упаковка изделий
@@ -40,13 +42,13 @@ const MarkingAndParking = () => {
             мешок опечатываются одноразовой пломбой. При необходимости
             используются картонные короба.
           </div>
-          <div className="py-3 w-96 h-full">
+          <div className="py-3 md:w-96 w-[150px] h-full">
             <p className="font-bold py-5">Картонная этикетка</p>
-            <img src="/img/markandpack/ЭТИКЕТКА КОМПАНИИ2.png" alt="" />
+            <img src="/img/markandpack/etiket.png" alt="" />
           </div>
-          <div className="py-3 w-96 h-full">
+          <div className="py-3 md:w-96 h-full w-[150px]">
             <p className="font-bold py-5">Трансферный ярлык</p>
-            <div className="flex flex-row">
+            <div className="flex flex-row ">
               <img
                 src="/img/markandpack/etiket-2.png"
                 alt=""
@@ -59,18 +61,18 @@ const MarkingAndParking = () => {
               />
             </div>
           </div>
-          <div className="py-3 w-96 h-full">
+          <div className="py-3 md:w-96 w-[150px] h-full">
             <p className="font-bold py-5">Вшивные этикетки</p>
             <div className="flex flex-row">
               <img
                 src="/img/markandpack/etiket.png"
                 alt=""
-                className="w-72 h-full mr-10"
+                className="md:w-56 w-[150px] h-full mr-10"
               />
               <img
                 src="/img/markandpack/etiket.png"
                 alt=""
-                className="w-72 h-full"
+                className="md:w-56 w-[150px] h-full"
               />
             </div>
           </div>
@@ -80,12 +82,12 @@ const MarkingAndParking = () => {
               <img
                 src="/img/markandpack/bag.png"
                 alt=""
-                className="w-72 h-full mr-10"
+                className="md:w-56 w-[150px] h-full mr-10"
               />
               <img
                 src="/img/markandpack/bag.png"
                 alt=""
-                className="w-56 h-full"
+                className="md:w-56 w-[150px] h-full"
               />
             </div>
           </div>

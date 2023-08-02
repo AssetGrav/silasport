@@ -38,13 +38,13 @@ const Search = () => {
     <div className="flex mb-1 text-black h-8">
       <input
         type="text"
-        className="block w-full px-14 text-pink-700 bg-white focus:ring-pink-300 focus:outline-none focus:ring focus:ring-opacity-40 rounded-sm"
+        className="block w-full px-14 text-pink-700 bg-dark-blue lg:bg-white focus:ring-pink-300 focus:outline-none focus:ring focus:ring-opacity-40 rounded-sm"
         placeholder="поиск ..."
         value={searchWord}
         onChange={handleChange}
       />
       <button
-        className="px-4"
+        className="p-1 md:px-4 "
         onClick={() => handleSearch(searchWord)}
         disabled={!active ? true : false}
       >

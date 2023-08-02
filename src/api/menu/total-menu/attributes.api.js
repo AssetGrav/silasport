@@ -1,5 +1,6 @@
 export const attributes = {
   name: "АТРИБУТЫ",
+  image: "img/menu-icons/attribute.png",
   list: [
     {
       _id: "a-1",

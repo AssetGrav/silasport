@@ -1,5 +1,6 @@
 export const sportType = {
   name: "ВИДЫ СПОРТА",
+  image: "img/menu-icons/sport-type.png",
   list: [
     {
       _id: "s-1",

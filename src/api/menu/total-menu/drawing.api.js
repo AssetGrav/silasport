@@ -1,6 +1,6 @@
 export const drawing = {
   name: "НАНЕСЕНИЕ",
-
+  image: "img/menu-icons/drawing.png",
   list: [
     {
       _id: "1",

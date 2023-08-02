@@ -9,10 +9,10 @@ const Footer = () => {
     <footer className="w-full bg-blue text-white mt-10">
       <div className="container mx-auto">
         <div className="flex flex-row">
-          <div className="w-3/4 px-10">
+          <div className="w-full lg:w-3/4 px-10">
             <ItemsContainer />
           </div>
-          <div className="px-5 py-16 w-1/4">
+          <div className="px-5 py-16 hidden lg:flex md:w-1/4 ">
             <Item Links={LOCATION} title="Головной офис Астана" />
           </div>
         </div>

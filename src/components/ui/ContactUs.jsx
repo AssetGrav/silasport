@@ -39,14 +39,14 @@ const ContactUs = () => {
     <form
       ref={form}
       onSubmit={sendEmail}
-      className="m-4 p-10 flex flex-col w-full items-stretch bg-gray-light"
+      className="my-10 p-10 flex flex-col w-full  items-stretch bg-gray-light"
     >
       <label className="flex justify-center my-2 font-bold text-xl">
         Напишите номер телефона мы Вам перезвоним
       </label>
       <input
         name="message"
-        className="flex w-full min-w-0 flex-auto rounded-l  bg-transparent  p-2 text-base font-normal text-dark-blue  hover:border-blue dark:placeholder:text-dark-blue dark:focus:border-blue my-2"
+        className="flex w-full flex-auto rounded-l  bg-transparent  p-2 text-base font-normal text-dark-blue  hover:border-blue dark:placeholder:text-dark-blue dark:focus:border-blue my-2"
         placeholder="7751234567 Алина"
         type="text"
         value={data.message}

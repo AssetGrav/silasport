@@ -1,15 +1,15 @@
 import React from "react";
-import PhoneForm from "./PhoneForm";
+import ContactUs from "./ContactUs";
 
 const Drawing = () => {
   return (
     <div className="px-5">
       <div className="flex justify-center">
-        <div className="w-1/3 ">
-          <PhoneForm />
+        <div className="w-full md:w-1/2 xl:w-1/3">
+          <ContactUs />
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-2 text-xl">
+      <div className="flex flex-col lg:grid-rows-2 gap-2 lg:text-xl text-base">
         <div className="p-5">
           <div className="font-bold pb-5">
             Стандартные размеры и расположение логотипов, эмблем и надписей на

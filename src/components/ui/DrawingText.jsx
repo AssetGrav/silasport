@@ -2,8 +2,8 @@ import React from "react";
 
 const DrawingText = ({ photo }) => {
   return (
-    <div className="flex flex-row">
-      <div className="px-20 w-1/2">
+    <div className="flex flex-col md:flex-row">
+      <div className="px-1 lg:px-20 w-full">
         <p className="font-bold pb-2">СУБЛИМАЦИЯ </p>
         <div>
           Печать, «встраивающая» фамилию (имя, псевдоним) в ткань готового

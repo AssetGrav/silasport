@@ -22,8 +22,8 @@ const ProductItem = () => {
       <div className="px-5">
         <LinkArrow name={state.some.name} product={true} />
 
-        <div className="flex flex-row-2 my-5">
-          <div className="w-1/2 py-5">
+        <div className="flex flex-col lg:flex-row my-5 w-full">
+          <div className="w-full lg:w-1/2 justify-center py-5">
             <CarouselItems
               kits={products}
               num={1}
@@ -31,7 +31,7 @@ const ProductItem = () => {
               photo={true}
             />
           </div>
-          <div className="w-1/2">
+          <div className="w-full">
             <h2 className="flex font-medium text-3xl py-5">
               {state.some.name}
             </h2>
@@ -58,7 +58,7 @@ const ProductItem = () => {
           </div>
         </div>
         <div className="flex justify-center">
-          <div className="w-1/3 ">
+          <div className="w-full sm:w-1/2 xl:w-1/3 ">
             <ContactUs />
           </div>
         </div>

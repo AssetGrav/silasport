@@ -54,7 +54,7 @@ const NewCarouselItems = ({ kits, num, carousel, photo, handleClick }) => {
         className="mx-5"
       >
         {kits.map((elem) => (
-          <div key={elem._id} onClick={handleClick}>
+          <div key={elem._id} onClick={handleClick} className="mx-2">
             <Link
               to={
                 state

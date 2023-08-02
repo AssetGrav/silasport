@@ -6,10 +6,12 @@ import { delivery } from "../../../api/menu/header/delivery/delivery.api";
 
 const Delivery = () => {
   return (
-    <div className="container pt-36 pb-10">
+    <div className="container pt-36 pb-10 md:pt-40">
       <LinkArrow name="Доставка" />
       <div className="flex flex-row px-5 py-10">
-        <TableMenu list={info.list} />
+        <div className="hidden lg:flex">
+          <TableMenu list={info.list} />
+        </div>
         <div className="flex flex-col">
           <h1 className="font-medium text-3xl pb-5">Доставка</h1>
           <p>Мы предлагаем несколько вариантов доставки нашим клиентам:</p>

@@ -6,10 +6,12 @@ import ContactUs from "../ContactUs";
 
 const Order = () => {
   return (
-    <div className="container pt-36 pb-10">
+    <div className="container pt-36 pb-10 md:pt-40">
       <LinkArrow name="Как сделать заказ" />
       <div className="flex flex-row px-5 py-10">
-        <TableMenu list={info.list} />
+        <div className="hidden lg:flex">
+          <TableMenu list={info.list} />
+        </div>
         <div className="flex flex-col">
           <h1 className="font-medium text-3xl pb-5">Как сделать заказ</h1>
           <p>Мы изготавливаем спортивную одежду на заказ.</p> <br />
@@ -19,7 +21,7 @@ const Order = () => {
           спортивные костюмы, куртки и т.д.
           <div className="w-full">
             <div className="flex justify-center">
-              <div className="w-1/2">
+              <div className="w-full md:w-1/2 ">
                 <ContactUs />
               </div>
             </div>

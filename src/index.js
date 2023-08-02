@@ -7,7 +7,7 @@ import { HashRouter } from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <div className="font-sans">
+    <div className="relative font-sans">
       <HashRouter>
         <App />
       </HashRouter>

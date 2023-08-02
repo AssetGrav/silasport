@@ -7,20 +7,17 @@ const DropItem = ({ name, list, menu, onClick }) => {
     <div
       className="py-1 px-5 bg-white text-black"
       role="none"
-      onMouseDown={onClick}
+      onClick={onClick}
     >
-      {/* <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" --> */}
       {!list.type ? (
-        <div className="">
-          <Link
-            to={`${menu === true ? "products" : ""}/${list.host}`}
-            state={{ some: `${list.host}` }}
-          >
-            <p className="text-dark-blue px-2 hover:bg-gray-light hover:rounded-lg hover:text-red">
-              {name}
-            </p>
-          </Link>
-        </div>
+        <Link
+          to={`${menu === true ? "products" : ""}/${list.host}`}
+          state={{ some: `${list.host}` }}
+        >
+          <p className="text-dark-blue px-2 w-full hover:bg-gray-light hover:rounded-lg hover:text-red">
+            {name}
+          </p>
+        </Link>
       ) : (
         <div className="w-full">
           <div

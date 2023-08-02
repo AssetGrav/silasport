@@ -1,5 +1,6 @@
 export const hockey = {
   name: "ХОККЕЙ",
+  image: "img/menu-icons/hockey.png",
   list: [
     {
       _id: "h-1",

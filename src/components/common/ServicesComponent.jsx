@@ -27,7 +27,7 @@ const ServicesComponent = ({
   const serviceBlock = pathname.substr(19);
 
   return (
-    <div className="container pt-36 pb-10">
+    <div className="container pt-36 pb-10 md:pt-40">
       <div className="px-5">
         <LinkArrow name={linkName} />
         <h1 className="flex justify-center font-medium text-3xl py-5">

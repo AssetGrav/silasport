@@ -5,7 +5,7 @@ import { works } from "../../../api/works-gallery.api";
 
 const Gallery = () => {
   return (
-    <div className="container pt-36">
+    <div className="container pt-36 md:pt-40">
       <div className="px-5 pb-10">
         <LinkArrow name="Галерея работ" />
         <h1 className="flex justify-center font-medium text-3xl py-5">

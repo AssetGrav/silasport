@@ -9,10 +9,15 @@ const AboutUsVideo = () => {
       <h1 className="flex justify-center text-dark-blue text-2xl font-bold mt-14 ">
         ВИДЕО О НАС
       </h1>
-      <div className="my-5 flex flex-row">
-        {videoFile.map((elem) => (
-          <div key={elem._id}>
-            <Video videoId={elem._id} height={250} width={420} />
+      <div className="my-5 flex flex-row justify-center">
+        {videoFile.map((elem, index) => (
+          <div
+            key={elem._id}
+            className={`flex justify-center  md:w-[250px] md:h-[150px] lg:w-[420px] lg:h-[300px] ${
+              index !== 0 ? "hidden" : "flex"
+            } sm:${index === 2 ? "hidden" : "flex"} lg:flex`}
+          >
+            <Video videoId={elem._id} height={"100%"} width={"100%"} />
           </div>
         ))}
       </div>

@@ -44,7 +44,7 @@ const CarouselItems = ({ kits, num, carousel, photo, handleClick }) => {
         // autoPlaySpeed={1000}
         keyBoardControl={true}
         customTransition="all .5"
-        transitionDuration={500}
+        transitionDuration={100}
         containerClass="carousel-container"
         removeArrowOnDeviceType={["tablet", "mobile"]}
         // deviceType={this.props.deviceType}
@@ -54,22 +54,12 @@ const CarouselItems = ({ kits, num, carousel, photo, handleClick }) => {
       >
         {kits.map((elem) => (
           <div key={elem._id} onClick={handleClick}>
-            {/* <Link
-              to={
-                state
-                  ? `/products/${state.some + "/" + elem._id}`
-                  : `/products/${findHost(elem.type) + "/" + elem._id}`
-              }
-              state={{ some: elem }}
-            > */}
-
             <CarouselBlock
               kit={elem}
               carousel={carousel}
               photo={photo}
               products={kits}
             />
-            {/* </Link> */}
           </div>
         ))}
       </Carousel>

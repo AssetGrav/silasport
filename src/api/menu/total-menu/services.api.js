@@ -1,5 +1,6 @@
 export const services = {
   name: "УСЛУГИ",
+  image: "img/menu-icons/service.png",
   list: [
     {
       _id: "1",

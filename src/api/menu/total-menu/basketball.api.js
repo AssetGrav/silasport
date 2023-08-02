@@ -1,5 +1,6 @@
 export const basketball = {
   name: "БАСКЕТБОЛ",
+  image: "img/menu-icons/basketball.png",
   list: [
     {
       _id: "b-1",

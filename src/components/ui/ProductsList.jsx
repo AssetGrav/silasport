@@ -12,7 +12,7 @@ const ProductsList = ({ list, state }) => {
   };
 
   return (
-    <div className="grid grid-cols-4 gap-4 content-start">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 content-start">
       {list.map((elem) => (
         <div key={elem._id}>
           <Link

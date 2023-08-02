@@ -12,11 +12,13 @@ import {
 
 const Printing = () => {
   return (
-    <div className="container pt-36 pb-10">
+    <div className="container pt-36 pb-10 md:pt-40">
       <LinkArrow name="Технология печати на тканях" />
       <div className="flex flex-row px-5 py-10">
-        <TableMenu list={info.list} />
-        <div className="flex flex-col">
+        <div className="hidden lg:flex">
+          <TableMenu list={info.list} />
+        </div>
+        <div className="flex flex-col lg:w-2/3 w-full">
           <h1 className="font-medium text-3xl pb-5">
             Технология печати на тканях
           </h1>
@@ -85,7 +87,7 @@ const Printing = () => {
             может давать более качественные полноцветные изображения (например,
             цветные фотографии).
           </p>
-          <div className="max-w-6xl h-36 my-10 px-10">
+          <div className="w-full h-36 my-10 px-10 ">
             <CarouselComponent works={printing} num={4} number="w-36 h-36" />
           </div>
           <p>
@@ -109,7 +111,7 @@ const Printing = () => {
             поверхностью.
           </p>
           {/* carusel */}
-          <div className="max-w-6xl h-36 my-10 px-10">
+          <div className="w-full h-36 my-10 px-10 ">
             <CarouselComponent
               works={termoflexprint}
               num={4}
@@ -142,7 +144,7 @@ const Printing = () => {
             другие технологии.
           </p>
           {/* carousel */}
-          <div className="max-w-6xl h-48 my-10">
+          <div className="w-full h-48 my-10">
             <CarouselComponent works={subPrinting} num={4} number="w-36 h-36" />
           </div>
           <p>
@@ -176,7 +178,7 @@ const Printing = () => {
             нитками под золото или серебро.
           </p>
           {/* carousel */}
-          <div className="max-w-6xl h-48 my-10">
+          <div className="w-full h-48 my-10">
             <CarouselComponent works={embroidery} num={4} number="w-36 h-36" />
           </div>
           <p>

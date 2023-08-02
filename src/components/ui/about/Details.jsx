@@ -5,11 +5,13 @@ import LinkArrow from "../LinkArrow";
 
 const Details = () => {
   return (
-    <div className="container pt-36 pb-10">
+    <div className="container pt-36 pb-10 md:pt-40">
       <div className="px-5">
         <LinkArrow name="Реквизиты компании" />
         <div className="flex flex-row px-5 py-10">
-          <TableMenu list={about.list} />
+          <div className="hidden lg:flex">
+            <TableMenu list={about.list} />
+          </div>
           <div className="flex flex-col">
             <h1 className="font-medium text-3xl py-5"> Реквизиты</h1>
             <div className="text-dark-blue hover:text-blue">

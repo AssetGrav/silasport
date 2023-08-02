@@ -19,24 +19,7 @@ export const attributeCharm = [
     article: "Б-10",
     category: "мужская",
   },
-  {
-    _id: uuidv4("sila-"),
-    type: "a-1",
-    name: "Брелок",
-    image: ["/img/attribute/charm/3.jpg"],
-    price: 13000,
-    article: "Б-10",
-    category: "мужская",
-  },
-  {
-    _id: uuidv4("sila-"),
-    type: "a-1",
-    name: "Брелок",
-    image: ["/img/attribute/charm/4.jpg"],
-    price: 13000,
-    article: "Б-10",
-    category: "мужская",
-  },
+
   {
     _id: uuidv4("sila-"),
     type: "a-1",
@@ -46,15 +29,7 @@ export const attributeCharm = [
     article: "Б-10",
     category: "мужская",
   },
-  {
-    _id: uuidv4("sila-"),
-    type: "a-1",
-    name: "Брелок",
-    image: ["/img/attribute/charm/6.jpg"],
-    price: 13000,
-    article: "Б-10",
-    category: "мужская",
-  },
+
   {
     _id: uuidv4("sila-"),
     type: "a-1",
@@ -64,15 +39,7 @@ export const attributeCharm = [
     article: "Б-10",
     category: "мужская",
   },
-  {
-    _id: uuidv4("sila-"),
-    type: "a-1",
-    name: "Брелок",
-    image: ["/img/attribute/charm/8.jpg"],
-    price: 13000,
-    article: "Б-10",
-    category: "мужская",
-  },
+
   {
     _id: uuidv4("sila-"),
     type: "a-1",

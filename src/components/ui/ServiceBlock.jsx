@@ -2,7 +2,7 @@ import React from "react";
 
 const ServiceBlock = ({ name }) => {
   return (
-    <div className="px-52">
+    <div className="px-5 lg:px-52 ">
       {name === "Вышивка на изделии" && (
         <div>
           Вышивка используется в тех случаях, когда надо сделать «солидное» и

@@ -5,12 +5,12 @@ import { aboutUs } from "../../../api/aboutUs.api.js";
 
 const About = () => {
   return (
-    <div className="container pt-36 pb-10">
+    <div className="container pt-36 pb-10 md:pt-40">
       <div className="flex flex-row px-5">
         <div className="flex flex-col">
           <LinkArrow name="О компании" />
           <div className="flex justify-left py-20">
-            <h1 className="translate-x-72 font-bold text-6xl z-index-90">
+            <h1 className="lg:translate-x-72 font-bold text-2xl lg:text-6xl z-index-90">
               О компании SilaSport
             </h1>
           </div>

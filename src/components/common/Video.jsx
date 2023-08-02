@@ -13,7 +13,7 @@ class Video extends React.Component {
     };
 
     return (
-      <div className="flex items-center m-10">
+      <div className="flex items-center mx-2">
         <YouTube
           videoId={this.props.videoId}
           opts={opts}

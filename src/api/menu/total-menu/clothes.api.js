@@ -1,5 +1,6 @@
 export const clothes = {
   name: "ОДЕЖДА",
+  image: "img/menu-icons/clothes.png",
   list: [
     {
       _id: "1",

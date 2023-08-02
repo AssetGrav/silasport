@@ -4,7 +4,7 @@ import { certificates } from "../../../api/certificate.api";
 
 export const Certificate = () => {
   return (
-    <div className="container pt-36 pb-10">
+    <div className="container pt-36 pb-10 md:pt-40">
       <div className="px-5">
         <div className="flex justify-center flex-col">
           <LinkArrow name="Сертификаты" />

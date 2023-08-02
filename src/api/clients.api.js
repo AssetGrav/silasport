@@ -20,10 +20,6 @@ export const ourClients = [
     image: "/img/clientslogo/5.png",
   },
   {
-    _id: 6,
-    image: "/img/clientslogo/6.png",
-  },
-  {
     _id: 7,
     image: "/img/clientslogo/7.png",
   },

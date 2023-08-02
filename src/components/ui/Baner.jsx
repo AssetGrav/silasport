@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 
 const Baner = () => {
   return (
-    <div className="flex my-5 bg-baner bg-cover px-10 ">
+    <div className="flex my-5 bg-baner bg-cover px-2 md:px-10  ">
       <div className="ml-10">
-        <h1 className="flex text-5xl font-bold my-5">
+        <h1 className="flex text-2xl lg:text-5xl font-bold my-5">
           <p className="text-red pr-3">SilaSport</p>- пошив спортивной одежды на
           заказ.
         </h1>
-        <ul className="tracking-widest leading-8 text-xl">
+        <ul className="tracking-widest leading-8 text-base md:text-xl">
           <li>Более 200 позиций спортивной одежды</li>
           <li>Производство сувенирной продукции</li>
           <li>Все технологии нанесения</li>
@@ -24,7 +24,7 @@ const Baner = () => {
           </Link>
         </div>
       </div>
-      <div className="flex ml-16">
+      <div className="hidden lg:flex ml-16">
         <Video videoId="-5ajVJ1Yxlg" />
       </div>
     </div>
